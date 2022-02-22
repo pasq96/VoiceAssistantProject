@@ -1,0 +1,5686 @@
+{
+  "entities": {
+    "activity": {
+      "automatically_extensible": false,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "timer"
+        },
+        {
+          "synonyms": [
+            "song",
+            "track"
+          ],
+          "value": "music"
+        },
+        {
+          "synonyms": [],
+          "value": "album"
+        },
+        {
+          "synonyms": [
+            "film",
+            "movie"
+          ],
+          "value": "video"
+        },
+        {
+          "synonyms": [],
+          "value": "alarm"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "artist": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "Dave Matthews Band"
+        },
+        {
+          "synonyms": [],
+          "value": "Britney Spears"
+        },
+        {
+          "synonyms": [],
+          "value": "Bon Jovi"
+        },
+        {
+          "synonyms": [],
+          "value": "Def Leppard"
+        },
+        {
+          "synonyms": [],
+          "value": "Bob Dylan"
+        },
+        {
+          "synonyms": [],
+          "value": "Tupac Shakur"
+        },
+        {
+          "synonyms": [],
+          "value": "Backstreet Boys"
+        },
+        {
+          "synonyms": [],
+          "value": "Tim McGraw"
+        },
+        {
+          "synonyms": [],
+          "value": "Rod Stewart"
+        },
+        {
+          "synonyms": [],
+          "value": "Foreigner"
+        },
+        {
+          "synonyms": [],
+          "value": "Simon & Garfunkel"
+        },
+        {
+          "synonyms": [],
+          "value": "Chicago"
+        },
+        {
+          "synonyms": [],
+          "value": "Eric Clapton"
+        },
+        {
+          "synonyms": [],
+          "value": "Reba McEntire"
+        },
+        {
+          "synonyms": [],
+          "value": "Queen"
+        },
+        {
+          "synonyms": [],
+          "value": "Santana"
+        },
+        {
+          "synonyms": [],
+          "value": "Alan Jackson"
+        },
+        {
+          "synonyms": [],
+          "value": "Guns N' Roses"
+        },
+        {
+          "synonyms": [],
+          "value": "Bob Seger & The Silver Bullet Band"
+        },
+        {
+          "synonyms": [],
+          "value": "Taylor Swift"
+        },
+        {
+          "synonyms": [],
+          "value": "Eminem"
+        },
+        {
+          "synonyms": [],
+          "value": "Alabama"
+        },
+        {
+          "synonyms": [],
+          "value": "Kenny Rogers"
+        },
+        {
+          "synonyms": [],
+          "value": "Shania Twain"
+        },
+        {
+          "synonyms": [],
+          "value": "Kenny G"
+        },
+        {
+          "synonyms": [],
+          "value": "Journey"
+        },
+        {
+          "synonyms": [],
+          "value": "Neil Diamond"
+        },
+        {
+          "synonyms": [],
+          "value": "Celine Dion"
+        },
+        {
+          "synonyms": [],
+          "value": "U2"
+        },
+        {
+          "synonyms": [],
+          "value": "Fleetwood Mac"
+        },
+        {
+          "synonyms": [],
+          "value": "Van Halen"
+        },
+        {
+          "synonyms": [],
+          "value": "Whitney Houston"
+        },
+        {
+          "synonyms": [],
+          "value": "Metallica"
+        },
+        {
+          "synonyms": [],
+          "value": "Madonna"
+        },
+        {
+          "synonyms": [],
+          "value": "Bruce Springsteen"
+        },
+        {
+          "synonyms": [],
+          "value": "The Rolling Stones"
+        },
+        {
+          "synonyms": [],
+          "value": "Aerosmith"
+        },
+        {
+          "synonyms": [],
+          "value": "Mariah Carey"
+        },
+        {
+          "synonyms": [],
+          "value": "Barbra Streisand"
+        },
+        {
+          "synonyms": [],
+          "value": "George Strait"
+        },
+        {
+          "synonyms": [],
+          "value": "Pink Floyd"
+        },
+        {
+          "synonyms": [],
+          "value": "AC/DC"
+        },
+        {
+          "synonyms": [],
+          "value": "Elton John"
+        },
+        {
+          "synonyms": [],
+          "value": "Billy Joel"
+        },
+        {
+          "synonyms": [],
+          "value": "Michael Jackson"
+        },
+        {
+          "synonyms": [],
+          "value": "Led Zeppelin"
+        },
+        {
+          "synonyms": [],
+          "value": "Eagles"
+        },
+        {
+          "synonyms": [],
+          "value": "Elvis Presley"
+        },
+        {
+          "synonyms": [],
+          "value": "Garth Brooks"
+        },
+        {
+          "synonyms": [],
+          "value": "The Beatles"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "color": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "blue"
+        },
+        {
+          "synonyms": [],
+          "value": "yellow"
+        },
+        {
+          "synonyms": [],
+          "value": "red"
+        },
+        {
+          "synonyms": [],
+          "value": "pink"
+        },
+        {
+          "synonyms": [],
+          "value": "orange"
+        },
+        {
+          "synonyms": [],
+          "value": "green"
+        },
+        {
+          "synonyms": [],
+          "value": "grey"
+        },
+        {
+          "synonyms": [],
+          "value": "black"
+        },
+        {
+          "synonyms": [],
+          "value": "white"
+        },
+        {
+          "synonyms": [],
+          "value": "brown"
+        },
+        {
+          "synonyms": [],
+          "value": "purple"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "electronicDevices": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "pc",
+            "personal computer",
+            "laptop",
+            "notebook",
+            "home computer"
+          ],
+          "value": "computer"
+        },
+        {
+          "synonyms": [
+            "smartphone",
+            "telephone"
+          ],
+          "value": "phone"
+        },
+        {
+          "synonyms": [
+            "iPod"
+          ],
+          "value": "mp3 player"
+        },
+        {
+          "synonyms": [
+            "iPad",
+            "pad"
+          ],
+          "value": "tablet"
+        },
+        {
+          "synonyms": [
+            "television",
+            "smart tv"
+          ],
+          "value": "tv"
+        },
+        {
+          "synonyms": [
+            "stereo"
+          ],
+          "value": "radio"
+        },
+        {
+          "synonyms": [
+            "lamp",
+            "bulb"
+          ],
+          "value": "light"
+        },
+        {
+          "synonyms": [
+            "conditioner"
+          ],
+          "value": "Air conditioner"
+        },
+        {
+          "synonyms": [
+            "earphones"
+          ],
+          "value": "headset"
+        },
+        {
+          "synonyms": [],
+          "value": "alarm clock"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "location": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "Dublin"
+        },
+        {
+          "synonyms": [],
+          "value": "Riyadh"
+        },
+        {
+          "synonyms": [],
+          "value": "Ha Long"
+        },
+        {
+          "synonyms": [],
+          "value": "Madrid"
+        },
+        {
+          "synonyms": [],
+          "value": "Venice"
+        },
+        {
+          "synonyms": [],
+          "value": "Moscow"
+        },
+        {
+          "synonyms": [],
+          "value": "Orlando"
+        },
+        {
+          "synonyms": [],
+          "value": "Athens"
+        },
+        {
+          "synonyms": [],
+          "value": "Cairo"
+        },
+        {
+          "synonyms": [],
+          "value": "Berlin"
+        },
+        {
+          "synonyms": [],
+          "value": "Cancun"
+        },
+        {
+          "synonyms": [],
+          "value": "Jaipur"
+        },
+        {
+          "synonyms": [],
+          "value": "Johor Bahru"
+        },
+        {
+          "synonyms": [],
+          "value": "Vienna"
+        },
+        {
+          "synonyms": [],
+          "value": "Chennai"
+        },
+        {
+          "synonyms": [],
+          "value": "Milan"
+        },
+        {
+          "synonyms": [],
+          "value": "Las Vegan"
+        },
+        {
+          "synonyms": [],
+          "value": "Barcelona"
+        },
+        {
+          "synonyms": [],
+          "value": "Denpasar"
+        },
+        {
+          "synonyms": [],
+          "value": "Ho Chi Minh City"
+        },
+        {
+          "synonyms": [],
+          "value": "Shanghai"
+        },
+        {
+          "synonyms": [],
+          "value": "Los Angeles"
+        },
+        {
+          "synonyms": [],
+          "value": "Osaka"
+        },
+        {
+          "synonyms": [],
+          "value": "Miami"
+        },
+        {
+          "synonyms": [],
+          "value": "Agra"
+        },
+        {
+          "synonyms": [],
+          "value": "Amsterdam"
+        },
+        {
+          "synonyms": [],
+          "value": "Seoul"
+        },
+        {
+          "synonyms": [],
+          "value": "Medina"
+        },
+        {
+          "synonyms": [],
+          "value": "Prague"
+        },
+        {
+          "synonyms": [],
+          "value": "Guangzhou"
+        },
+        {
+          "synonyms": [],
+          "value": "Mecca"
+        },
+        {
+          "synonyms": [],
+          "value": "Taipei"
+        },
+        {
+          "synonyms": [],
+          "value": "Pattaya"
+        },
+        {
+          "synonyms": [],
+          "value": "Tokyo"
+        },
+        {
+          "synonyms": [],
+          "value": "Rome"
+        },
+        {
+          "synonyms": [],
+          "value": "Phuket"
+        },
+        {
+          "synonyms": [],
+          "value": "Mumbai"
+        },
+        {
+          "synonyms": [],
+          "value": "Shenzhen"
+        },
+        {
+          "synonyms": [],
+          "value": "Antalya"
+        },
+        {
+          "synonyms": [],
+          "value": "Delhi"
+        },
+        {
+          "synonyms": [],
+          "value": "Istanbul"
+        },
+        {
+          "synonyms": [],
+          "value": "Kuala Lumpur"
+        },
+        {
+          "synonyms": [],
+          "value": "New York"
+        },
+        {
+          "synonyms": [],
+          "value": "Dubai"
+        },
+        {
+          "synonyms": [],
+          "value": "Paris"
+        },
+        {
+          "synonyms": [],
+          "value": "Singapore"
+        },
+        {
+          "synonyms": [],
+          "value": "Macau"
+        },
+        {
+          "synonyms": [],
+          "value": "London"
+        },
+        {
+          "synonyms": [],
+          "value": "Rio de janeiro"
+        },
+        {
+          "synonyms": [],
+          "value": "Naples"
+        },
+        {
+          "synonyms": [],
+          "value": "Avellino"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "musicGenre": {
+      "automatically_extensible": false,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "Acid jazz"
+        },
+        {
+          "synonyms": [],
+          "value": "Blues"
+        },
+        {
+          "synonyms": [],
+          "value": "Black Metal"
+        },
+        {
+          "synonyms": [],
+          "value": "Chemical Beat"
+        },
+        {
+          "synonyms": [
+            "classic",
+            "classical music"
+          ],
+          "value": "Classic music"
+        },
+        {
+          "synonyms": [],
+          "value": "Country"
+        },
+        {
+          "synonyms": [],
+          "value": "Crossover"
+        },
+        {
+          "synonyms": [
+            "dance music"
+          ],
+          "value": "dance"
+        },
+        {
+          "synonyms": [],
+          "value": "Dark"
+        },
+        {
+          "synonyms": [],
+          "value": "Death Metal"
+        },
+        {
+          "synonyms": [],
+          "value": "Disco revival"
+        },
+        {
+          "synonyms": [],
+          "value": "Epic Metal"
+        },
+        {
+          "synonyms": [],
+          "value": "Folk"
+        },
+        {
+          "synonyms": [],
+          "value": "Funky"
+        },
+        {
+          "synonyms": [],
+          "value": "Glam Rock"
+        },
+        {
+          "synonyms": [],
+          "value": "Gospel"
+        },
+        {
+          "synonyms": [],
+          "value": "Grunge"
+        },
+        {
+          "synonyms": [],
+          "value": "Hard Core"
+        },
+        {
+          "synonyms": [],
+          "value": "Hard House"
+        },
+        {
+          "synonyms": [],
+          "value": "Hard Rock"
+        },
+        {
+          "synonyms": [],
+          "value": "Hip-Hop"
+        },
+        {
+          "synonyms": [],
+          "value": "Industrial"
+        },
+        {
+          "synonyms": [],
+          "value": "Jazz"
+        },
+        {
+          "synonyms": [
+            "Drumm 'n' bass"
+          ],
+          "value": "Jungle"
+        },
+        {
+          "synonyms": [],
+          "value": "Liscio"
+        },
+        {
+          "synonyms": [],
+          "value": "Metal"
+        },
+        {
+          "synonyms": [],
+          "value": "Metalprogressive"
+        },
+        {
+          "synonyms": [],
+          "value": "Rock progressive"
+        },
+        {
+          "synonyms": [],
+          "value": "New-Wave"
+        },
+        {
+          "synonyms": [],
+          "value": "Noise"
+        },
+        {
+          "synonyms": [
+            "italian Pop"
+          ],
+          "value": "Pop"
+        },
+        {
+          "synonyms": [],
+          "value": "Progressive house"
+        },
+        {
+          "synonyms": [],
+          "value": "Psichedelia"
+        },
+        {
+          "synonyms": [],
+          "value": "Punk Rock"
+        },
+        {
+          "synonyms": [],
+          "value": "Rap"
+        },
+        {
+          "synonyms": [],
+          "value": "Trap"
+        },
+        {
+          "synonyms": [],
+          "value": "Rock'n'roll"
+        },
+        {
+          "synonyms": [],
+          "value": "SKA"
+        },
+        {
+          "synonyms": [],
+          "value": "Thrash"
+        },
+        {
+          "synonyms": [],
+          "value": "Underground"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "operator": {
+      "automatically_extensible": false,
+      "data": [
+        {
+          "synonyms": [
+            "sum",
+            "add"
+          ],
+          "value": "plus"
+        },
+        {
+          "synonyms": [
+            "difference",
+            "minus"
+          ],
+          "value": "sub"
+        },
+        {
+          "synonyms": [],
+          "value": "multiplied"
+        },
+        {
+          "synonyms": [],
+          "value": "divided"
+        },
+        {
+          "synonyms": [],
+          "value": "root"
+        },
+        {
+          "synonyms": [],
+          "value": "squared"
+        },
+        {
+          "synonyms": [],
+          "value": "cubed"
+        },
+        {
+          "synonyms": [],
+          "value": "to"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "rescueServices": {
+      "automatically_extensible": false,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "police"
+        },
+        {
+          "synonyms": [
+            "EMS"
+          ],
+          "value": "ambulance"
+        },
+        {
+          "synonyms": [],
+          "value": "fire"
+        },
+        {
+          "synonyms": [],
+          "value": "military"
+        },
+        {
+          "synonyms": [],
+          "value": "medic"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "room": {
+      "automatically_extensible": false,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "kitchen"
+        },
+        {
+          "synonyms": [
+            "bathroom",
+            "toilette"
+          ],
+          "value": "bath"
+        },
+        {
+          "synonyms": [],
+          "value": "sitting room"
+        },
+        {
+          "synonyms": [],
+          "value": "bedroom"
+        },
+        {
+          "synonyms": [],
+          "value": "double bedroom"
+        },
+        {
+          "synonyms": [],
+          "value": "full bedroom"
+        },
+        {
+          "synonyms": [],
+          "value": "guest bedroom"
+        },
+        {
+          "synonyms": [],
+          "value": "garage"
+        },
+        {
+          "synonyms": [],
+          "value": "garden"
+        },
+        {
+          "synonyms": [
+            "lounge",
+            "family room"
+          ],
+          "value": "living room"
+        },
+        {
+          "synonyms": [
+            "cellar"
+          ],
+          "value": "basement"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "snips/date": {},
+    "snips/datetime": {},
+    "snips/duration": {},
+    "snips/musicTrack": {},
+    "snips/number": {},
+    "snips/percentage": {},
+    "snips/temperature": {},
+    "snips/time": {},
+    "song": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "Daddy's Home'"
+        },
+        {
+          "synonyms": [],
+          "value": "The Horses and the Hounds"
+        },
+        {
+          "synonyms": [],
+          "value": "Certified Lover Boy"
+        },
+        {
+          "synonyms": [],
+          "value": "Timelezz"
+        },
+        {
+          "synonyms": [],
+          "value": "Fight or Escape"
+        },
+        {
+          "synonyms": [],
+          "value": "Bo Jackson"
+        },
+        {
+          "synonyms": [],
+          "value": "Senjutsu"
+        },
+        {
+          "synonyms": [],
+          "value": "Lyke Mike"
+        },
+        {
+          "synonyms": [],
+          "value": "Let Me Do One More"
+        },
+        {
+          "synonyms": [],
+          "value": "Remember Her Name"
+        },
+        {
+          "synonyms": [],
+          "value": "Medicine at Midnight"
+        },
+        {
+          "synonyms": [],
+          "value": "Don\u2019t Go Tellin\u2019 Your Momma"
+        },
+        {
+          "synonyms": [],
+          "value": "Stand for Myself"
+        },
+        {
+          "synonyms": [],
+          "value": "Shiesty Season"
+        },
+        {
+          "synonyms": [],
+          "value": "Sometimes I Might Be Introvert"
+        },
+        {
+          "synonyms": [],
+          "value": "An Evening With Silk Sonic"
+        },
+        {
+          "synonyms": [],
+          "value": "Driver"
+        },
+        {
+          "synonyms": [],
+          "value": "Still Over It"
+        },
+        {
+          "synonyms": [],
+          "value": "Valentine"
+        },
+        {
+          "synonyms": [],
+          "value": "Sound Ancestors"
+        },
+        {
+          "synonyms": [],
+          "value": "When Smoke Rises"
+        },
+        {
+          "synonyms": [],
+          "value": "Punk"
+        },
+        {
+          "synonyms": [],
+          "value": "Ni\u00f1xs Rotxs"
+        },
+        {
+          "synonyms": [],
+          "value": "Ignorance"
+        },
+        {
+          "synonyms": [],
+          "value": "Afrique Victime"
+        },
+        {
+          "synonyms": [],
+          "value": "29"
+        },
+        {
+          "synonyms": [],
+          "value": "New Long Leg"
+        },
+        {
+          "synonyms": [],
+          "value": "El Alimento"
+        },
+        {
+          "synonyms": [],
+          "value": "Second Line"
+        },
+        {
+          "synonyms": [],
+          "value": "Planet Her"
+        },
+        {
+          "synonyms": [],
+          "value": "Gold-Diggers Sound"
+        },
+        {
+          "synonyms": [],
+          "value": "Collapsed in Sunbeams"
+        },
+        {
+          "synonyms": [],
+          "value": "If I Can\u2019t Have Love, I Want Power"
+        },
+        {
+          "synonyms": [],
+          "value": "If Orange Was a Place'"
+        },
+        {
+          "synonyms": [],
+          "value": "Hey What"
+        },
+        {
+          "synonyms": [],
+          "value": "Happier Than Ever"
+        },
+        {
+          "synonyms": [],
+          "value": "Hall of Fame"
+        },
+        {
+          "synonyms": [],
+          "value": "Reckless"
+        },
+        {
+          "synonyms": [],
+          "value": "To Hell With It"
+        },
+        {
+          "synonyms": [],
+          "value": "Whole Lotta Red"
+        },
+        {
+          "synonyms": [],
+          "value": "Jubilee"
+        },
+        {
+          "synonyms": [],
+          "value": "El Madrile\u00f1o"
+        },
+        {
+          "synonyms": [],
+          "value": "Glow On"
+        },
+        {
+          "synonyms": [],
+          "value": "Heaux Tales"
+        },
+        {
+          "synonyms": [],
+          "value": "Montero"
+        },
+        {
+          "synonyms": [],
+          "value": "Home Video"
+        },
+        {
+          "synonyms": [],
+          "value": "Call Me If You Get Lost"
+        },
+        {
+          "synonyms": [],
+          "value": "Vice Versa"
+        },
+        {
+          "synonyms": [],
+          "value": "30"
+        },
+        {
+          "synonyms": [],
+          "value": "Sour"
+        },
+        {
+          "synonyms": [],
+          "value": "Smells Like Teen Spirit"
+        },
+        {
+          "synonyms": [],
+          "value": "Imagine"
+        },
+        {
+          "synonyms": [],
+          "value": "One"
+        },
+        {
+          "synonyms": [],
+          "value": "Billie Jean"
+        },
+        {
+          "synonyms": [],
+          "value": "Bohemian Rhapsody"
+        },
+        {
+          "synonyms": [],
+          "value": "Hey Jude"
+        },
+        {
+          "synonyms": [],
+          "value": "Like A Rolling Stone"
+        },
+        {
+          "synonyms": [],
+          "value": "I Can't Get No Satisfaction"
+        },
+        {
+          "synonyms": [],
+          "value": "God Save The Queen"
+        },
+        {
+          "synonyms": [],
+          "value": "Sweet Child O'Mine"
+        },
+        {
+          "synonyms": [],
+          "value": "London Calling"
+        },
+        {
+          "synonyms": [],
+          "value": "Waterloo Sunset"
+        },
+        {
+          "synonyms": [],
+          "value": "Hotel California"
+        },
+        {
+          "synonyms": [],
+          "value": "Your Song"
+        },
+        {
+          "synonyms": [],
+          "value": "Stairway To Heaven"
+        },
+        {
+          "synonyms": [],
+          "value": "The Twist"
+        },
+        {
+          "synonyms": [],
+          "value": "Live Forever"
+        },
+        {
+          "synonyms": [],
+          "value": "I Will Always Love You"
+        },
+        {
+          "synonyms": [],
+          "value": "Life On Mars?"
+        },
+        {
+          "synonyms": [],
+          "value": "Heartbreak Hotel"
+        },
+        {
+          "synonyms": [],
+          "value": "Over The Rainbow"
+        },
+        {
+          "synonyms": [],
+          "value": "What's Goin' On"
+        },
+        {
+          "synonyms": [],
+          "value": "Born To Run"
+        },
+        {
+          "synonyms": [],
+          "value": "Be My Baby"
+        },
+        {
+          "synonyms": [],
+          "value": "Creep"
+        },
+        {
+          "synonyms": [],
+          "value": "Bridge Over Troubled Water"
+        },
+        {
+          "synonyms": [],
+          "value": "Respect"
+        },
+        {
+          "synonyms": [],
+          "value": "Family Affair"
+        },
+        {
+          "synonyms": [],
+          "value": "Dancing Queen"
+        },
+        {
+          "synonyms": [],
+          "value": "Good Vibrations"
+        },
+        {
+          "synonyms": [],
+          "value": "Purple Haze"
+        },
+        {
+          "synonyms": [],
+          "value": "Yesterday"
+        },
+        {
+          "synonyms": [],
+          "value": "Jonny B Good"
+        },
+        {
+          "synonyms": [],
+          "value": "No Woman No Cry"
+        },
+        {
+          "synonyms": [],
+          "value": "Hallelujah"
+        },
+        {
+          "synonyms": [],
+          "value": "Every Breath You Take"
+        },
+        {
+          "synonyms": [],
+          "value": "A Day In The Life"
+        },
+        {
+          "synonyms": [],
+          "value": "Stand By Me - Ben E King"
+        },
+        {
+          "synonyms": [],
+          "value": "Papa's Got A Brand New Bag"
+        },
+        {
+          "synonyms": [],
+          "value": "Gimme Shelter"
+        },
+        {
+          "synonyms": [],
+          "value": "What'd I Say"
+        },
+        {
+          "synonyms": [],
+          "value": "Sultans Of Swing"
+        },
+        {
+          "synonyms": [],
+          "value": "God Only Knows"
+        },
+        {
+          "synonyms": [],
+          "value": "You've Lost That Lovin' Feeling"
+        },
+        {
+          "synonyms": [],
+          "value": "My Generation"
+        },
+        {
+          "synonyms": [],
+          "value": "Dancing In The Street"
+        },
+        {
+          "synonyms": [],
+          "value": "When Doves Cry"
+        },
+        {
+          "synonyms": [],
+          "value": "A Change Is Gonna Come"
+        },
+        {
+          "synonyms": [],
+          "value": "River Deep Mountain High"
+        },
+        {
+          "synonyms": [],
+          "value": "Best Of My Love"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "speedLevel": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "quickly"
+          ],
+          "value": "faster"
+        },
+        {
+          "synonyms": [
+            "slowly"
+          ],
+          "value": "slower"
+        },
+        {
+          "synonyms": [],
+          "value": "default"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "streamAudioServices": {
+      "automatically_extensible": false,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "Amazon music"
+        },
+        {
+          "synonyms": [],
+          "value": "Spotify"
+        },
+        {
+          "synonyms": [],
+          "value": "Youtube music"
+        },
+        {
+          "synonyms": [],
+          "value": "Youtube"
+        },
+        {
+          "synonyms": [],
+          "value": "Apple Music"
+        },
+        {
+          "synonyms": [],
+          "value": "Tidal"
+        },
+        {
+          "synonyms": [],
+          "value": "Primephonic"
+        },
+        {
+          "synonyms": [],
+          "value": "Deezer"
+        },
+        {
+          "synonyms": [],
+          "value": "Qobuz"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "volume_bright": {
+      "automatically_extensible": false,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "volume"
+        },
+        {
+          "synonyms": [],
+          "value": "bright"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    }
+  },
+  "intents": {
+    "AnticipateEvent": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Anticipate "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "today"
+            },
+            {
+              "text": "'s event to "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "on october 1st at 10am"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Anticipate "
+            },
+            {
+              "entity": "snips/date",
+              "slot_name": "date",
+              "text": "saturday january 19"
+            },
+            {
+              "text": "'s event from "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "4:30 pm"
+            },
+            {
+              "text": " to "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "in one hour"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Anticipate "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "at 8 a.m."
+            },
+            {
+              "text": "'s event to "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "for ten o'clock"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Anticipate "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "4:30 pm"
+            },
+            {
+              "text": "'s event to "
+            },
+            {
+              "entity": "snips/date",
+              "slot_name": "date",
+              "text": "monday 15th april 2019"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Anticipate "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "in 1 hour"
+            },
+            {
+              "text": "'s appointment to "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "the 3rd tuesday of June"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Anticipate "
+            },
+            {
+              "entity": "snips/date",
+              "slot_name": "date",
+              "text": "the day after tomorrow"
+            },
+            {
+              "text": "'s appointment from "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "at ten in the evening"
+            },
+            {
+              "text": " to "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "now"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Anticipate "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "tomorrow at 9pm"
+            },
+            {
+              "text": "'s appointment to "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "at noon"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Anticipate "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "today"
+            },
+            {
+              "text": "'s appointment to "
+            },
+            {
+              "entity": "snips/date",
+              "slot_name": "date",
+              "text": "today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Pre-empt "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "on october 1st at 10am"
+            },
+            {
+              "text": "'s event to "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "at 8 a.m."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Pre-empt "
+            },
+            {
+              "entity": "snips/date",
+              "slot_name": "date",
+              "text": "on Wednesday"
+            },
+            {
+              "text": "'s event from "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "at 8 a.m."
+            },
+            {
+              "text": " to "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "4:30 pm"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Pre-empt "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "4:30 pm"
+            },
+            {
+              "text": "'s event to "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "in one hour"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Pre-empt "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "in 1 hour"
+            },
+            {
+              "text": "'s event to "
+            },
+            {
+              "entity": "snips/date",
+              "slot_name": "date",
+              "text": "March 26th"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Pre-empt "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "the 3rd tuesday of June"
+            },
+            {
+              "text": "'s appointment to "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "tomorrow at 9pm"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Pre-empt "
+            },
+            {
+              "entity": "snips/date",
+              "slot_name": "date",
+              "text": "saturday january 19"
+            },
+            {
+              "text": "'s appointment from "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "for ten o'clock"
+            },
+            {
+              "text": " to "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "at ten in the evening"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Pre-empt "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "today"
+            },
+            {
+              "text": "'s appointment to "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "now"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Pre-empt "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "on october 1st at 10am"
+            },
+            {
+              "text": "'s appointment to "
+            },
+            {
+              "entity": "snips/date",
+              "slot_name": "date",
+              "text": "monday 15th april 2019"
+            }
+          ]
+        }
+      ]
+    },
+    "callHelp": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Help"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Call the "
+            },
+            {
+              "entity": "rescueServices",
+              "slot_name": "rescueServices",
+              "text": "police"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I need help"
+            }
+          ]
+        }
+      ]
+    },
+    "commandsWithBluetooth": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Connect to my "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "home computer"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Disconnect from my "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "phone"
+            }
+          ]
+        }
+      ]
+    },
+    "decreaseElectronicDevice": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Decrease the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "iPod"
+            },
+            {
+              "text": "'s "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "volume"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "2001"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "kitchen"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Decrease the "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "bright"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "tablet"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "twenty one"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "bath"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Decrease the "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "volume"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "iPad"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "three hundred and four"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Decrease the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "pad"
+            },
+            {
+              "text": "'s "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "bright"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "2001"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Turn down the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "tv"
+            },
+            {
+              "text": "'s "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "volume"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "twenty one"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "bathroom"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Turn down the "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "bright"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "television"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "three hundred and four"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "toilette"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Turn down the "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "volume"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "smart tv"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "2001"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Turn down the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "radio"
+            },
+            {
+              "text": "'s "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "bright"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "twenty one"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Reduce the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "stereo"
+            },
+            {
+              "text": "'s "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "volume"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "three hundred and four"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "sitting room"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Reduce the "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "bright"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "light"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "2001"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "bedroom"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Reduce the "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "volume"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "lamp"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "twenty one"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Reduce the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "bulb"
+            },
+            {
+              "text": "'s "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "bright"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "three hundred and four"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Slow down the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "Air conditioner"
+            },
+            {
+              "text": "'s "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "volume"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "2001"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "double bedroom"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Slow down the "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "bright"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "conditioner"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "twenty one"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "full bedroom"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Slow down the "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "volume"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "headset"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "three hundred and four"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Slow down the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "earphones"
+            },
+            {
+              "text": "'s "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "bright"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "2001"
+            }
+          ]
+        }
+      ]
+    },
+    "decreaseThermostatTemperature": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Lower the temperature by "
+            },
+            {
+              "entity": "snips/temperature",
+              "slot_name": "temperature",
+              "text": "70K"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "bathroom"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Lower the temperature by "
+            },
+            {
+              "entity": "snips/temperature",
+              "slot_name": "temperature",
+              "text": "3\u00b0C"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Turn down the temperature by "
+            },
+            {
+              "entity": "snips/temperature",
+              "slot_name": "temperature",
+              "text": "Twenty three degrees"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "toilette"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Turn down the temperature by "
+            },
+            {
+              "entity": "snips/temperature",
+              "slot_name": "temperature",
+              "text": "one hundred degrees fahrenheit"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Reduce the temperature by "
+            },
+            {
+              "entity": "snips/temperature",
+              "slot_name": "temperature",
+              "text": "70K"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "sitting room"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Reduce the temperature by "
+            },
+            {
+              "entity": "snips/temperature",
+              "slot_name": "temperature",
+              "text": "3\u00b0C"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Slow down the temperature by "
+            },
+            {
+              "entity": "snips/temperature",
+              "slot_name": "temperature",
+              "text": "Twenty three degrees"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "bedroom"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Slow down the temperature by "
+            },
+            {
+              "entity": "snips/temperature",
+              "slot_name": "temperature",
+              "text": "one hundred degrees fahrenheit"
+            }
+          ]
+        }
+      ]
+    },
+    "getRoomTemperature": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "What is the temperature?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is the temperature in the house?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is the temperature in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "cellar"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        }
+      ]
+    },
+    "getThermostatTemperature": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "What temperature is thermostat set to?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What temperature is thermostat set to in the house?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What temperature is thermostat set to in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "living room"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        }
+      ]
+    },
+    "getTime": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "What time is it?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Do you have the time?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Give me the time"
+            }
+          ]
+        }
+      ]
+    },
+    "getWeather": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Give me the weather forecast for "
+            },
+            {
+              "entity": "location",
+              "slot_name": "weatherLocation",
+              "text": "Dublin"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "weatherDate",
+              "text": "on october 1st at 10am"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What kind of weather should I expect "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "weatherDate",
+              "text": "at 8 a.m."
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "location",
+              "slot_name": "weatherLocation",
+              "text": "Riyadh"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What will be the weather in "
+            },
+            {
+              "entity": "location",
+              "slot_name": "weatherLocation",
+              "text": "Ha Long"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "weatherDate",
+              "text": "4:30 pm"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is the weather in "
+            },
+            {
+              "entity": "location",
+              "slot_name": "weatherLocation",
+              "text": "Madrid"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is the weather in "
+            },
+            {
+              "entity": "location",
+              "slot_name": "weatherLocation",
+              "text": "Venice"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "weatherDate",
+              "text": "in 1 hour"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is the weather in "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "weatherDate",
+              "text": "the 3rd tuesday of June"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "location",
+              "slot_name": "weatherLocation",
+              "text": "Moscow"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is the weather like in "
+            },
+            {
+              "entity": "location",
+              "slot_name": "weatherLocation",
+              "text": "Orlando"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "weatherDate",
+              "text": "tomorrow at 9pm"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How will the weather be in "
+            },
+            {
+              "entity": "location",
+              "slot_name": "weatherLocation",
+              "text": "Athens"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "weatherDate",
+              "text": "today"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How was the weather in "
+            },
+            {
+              "entity": "location",
+              "slot_name": "weatherLocation",
+              "text": "Cairo"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "weatherDate",
+              "text": "on october 1st at 10am"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        }
+      ]
+    },
+    "getcalendarEvents": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "What is on calendar "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "dateTime",
+              "text": "at 8 a.m."
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What I will do "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "dateTime",
+              "text": "4:30 pm"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        }
+      ]
+    },
+    "increaseElectronicDevice": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Increase the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "bulb"
+            },
+            {
+              "text": "'s "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "volume"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "three hundred and four"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "guest bedroom"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Increase the "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "bright"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "Air conditioner"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "2001"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "garage"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Increase the "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "volume"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "conditioner"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "twenty one"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Increase the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "headset"
+            },
+            {
+              "text": "'s "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "bright"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "three hundred and four"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Raise the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "earphones"
+            },
+            {
+              "text": "'s "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "volume"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "2001"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "garden"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Raise the "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "bright"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "alarm clock"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "twenty one"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "living room"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Raise the "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "volume"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "computer"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "three hundred and four"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Raise the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "pc"
+            },
+            {
+              "text": "'s "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "bright"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "2001"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Boost the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "personal computer"
+            },
+            {
+              "text": "'s "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "volume"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "twenty one"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "lounge"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Boost the "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "bright"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "laptop"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "three hundred and four"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "family room"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Boost the "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "volume"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "notebook"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "2001"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Boost the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "home computer"
+            },
+            {
+              "text": "'s "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "bright"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "twenty one"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Amplify the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "phone"
+            },
+            {
+              "text": "'s "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "volume"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "three hundred and four"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "basement"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Amplify the "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "bright"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "smartphone"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "2001"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "cellar"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Amplify the "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "volume"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "telephone"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "twenty one"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Amplify the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "mp3 player"
+            },
+            {
+              "text": "'s "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "bright"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "three hundred and four"
+            }
+          ]
+        }
+      ]
+    },
+    "increaseThermostatTemp": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Raise the temperature by "
+            },
+            {
+              "entity": "snips/temperature",
+              "slot_name": "temperature",
+              "text": "70K"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "lounge"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Raise the temperature by "
+            },
+            {
+              "entity": "snips/temperature",
+              "slot_name": "temperature",
+              "text": "3\u00b0C"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Increase the temperature by "
+            },
+            {
+              "entity": "snips/temperature",
+              "slot_name": "temperature",
+              "text": "Twenty three degrees"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "family room"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Increase the temperature by "
+            },
+            {
+              "entity": "snips/temperature",
+              "slot_name": "temperature",
+              "text": "one hundred degrees fahrenheit"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Boost the temperature by "
+            },
+            {
+              "entity": "snips/temperature",
+              "slot_name": "temperature",
+              "text": "70K"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "basement"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Boost the temperature by "
+            },
+            {
+              "entity": "snips/temperature",
+              "slot_name": "temperature",
+              "text": "3\u00b0C"
+            }
+          ]
+        }
+      ]
+    },
+    "mathOperations": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "What is "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "2001"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "operator",
+              "slot_name": "operator",
+              "text": "plus"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How much is "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "twenty one"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "operator",
+              "slot_name": "operator",
+              "text": "sum"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How much is "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "three hundred and four"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "operator",
+              "slot_name": "operator",
+              "text": "add"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "2001"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "twenty one"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "operator",
+              "slot_name": "operator",
+              "text": "sub"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "three hundred and four"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How much is "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "2001"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "operator",
+              "slot_name": "operator",
+              "text": "difference"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "twenty one"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "three hundred and four"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "operator",
+              "slot_name": "operator",
+              "text": "minus"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "2001"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is "
+            },
+            {
+              "entity": "snips/percentage",
+              "slot_name": "percentage",
+              "text": "25%"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "twenty one"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "operator",
+              "slot_name": "operator",
+              "text": "multiplied"
+            },
+            {
+              "text": " between "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "three hundred and four"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "2001"
+            }
+          ]
+        }
+      ]
+    },
+    "playMusic": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Play "
+            },
+            {
+              "entity": "song",
+              "slot_name": "song",
+              "text": "Daddy's Home'"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play "
+            },
+            {
+              "entity": "song",
+              "slot_name": "song",
+              "text": "The Horses and the Hounds"
+            },
+            {
+              "text": " from "
+            },
+            {
+              "entity": "streamAudioServices",
+              "slot_name": "service",
+              "text": "Amazon music"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play "
+            },
+            {
+              "entity": "song",
+              "slot_name": "song",
+              "text": "Certified Lover Boy"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "kitchen"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play "
+            },
+            {
+              "entity": "song",
+              "slot_name": "song",
+              "text": "Timelezz"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "bath"
+            },
+            {
+              "text": " from "
+            },
+            {
+              "entity": "streamAudioServices",
+              "slot_name": "service",
+              "text": "Spotify"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play "
+            },
+            {
+              "entity": "song",
+              "slot_name": "song",
+              "text": "Fight or Escape"
+            },
+            {
+              "text": " on "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "alarm clock"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "bathroom"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play a song by "
+            },
+            {
+              "entity": "artist",
+              "slot_name": "artist",
+              "text": "Dave Matthews Band"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play a track by "
+            },
+            {
+              "entity": "artist",
+              "slot_name": "artist",
+              "text": "Britney Spears"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play a "
+            },
+            {
+              "entity": "artist",
+              "slot_name": "artist",
+              "text": "Bon Jovi"
+            },
+            {
+              "text": " track"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play a "
+            },
+            {
+              "entity": "artist",
+              "slot_name": "artist",
+              "text": "Def Leppard"
+            },
+            {
+              "text": " song"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play "
+            },
+            {
+              "entity": "artist",
+              "slot_name": "artist",
+              "text": "Bob Dylan"
+            },
+            {
+              "text": " track in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "toilette"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play "
+            },
+            {
+              "entity": "artist",
+              "slot_name": "artist",
+              "text": "Tupac Shakur"
+            },
+            {
+              "text": " song in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "sitting room"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play "
+            },
+            {
+              "entity": "artist",
+              "slot_name": "artist",
+              "text": "Backstreet Boys"
+            },
+            {
+              "text": " track on "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "computer"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play "
+            },
+            {
+              "entity": "artist",
+              "slot_name": "artist",
+              "text": "Tim McGraw"
+            },
+            {
+              "text": " song on "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "pc"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play "
+            },
+            {
+              "entity": "artist",
+              "slot_name": "artist",
+              "text": "Rod Stewart"
+            },
+            {
+              "text": " track on "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "personal computer"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "bedroom"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play "
+            },
+            {
+              "entity": "artist",
+              "slot_name": "artist",
+              "text": "Foreigner"
+            },
+            {
+              "text": " song on "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "laptop"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "double bedroom"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play an album by "
+            },
+            {
+              "entity": "artist",
+              "slot_name": "artist",
+              "text": "Simon & Garfunkel"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play an album by "
+            },
+            {
+              "entity": "artist",
+              "slot_name": "artist",
+              "text": "Chicago"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "full bedroom"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play an album by "
+            },
+            {
+              "entity": "artist",
+              "slot_name": "artist",
+              "text": "Eric Clapton"
+            },
+            {
+              "text": " on "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "notebook"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play an album by "
+            },
+            {
+              "entity": "artist",
+              "slot_name": "artist",
+              "text": "Reba McEntire"
+            },
+            {
+              "text": " on "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "home computer"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "guest bedroom"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play a "
+            },
+            {
+              "entity": "artist",
+              "slot_name": "artist",
+              "text": "Queen"
+            },
+            {
+              "text": " album"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play a "
+            },
+            {
+              "entity": "artist",
+              "slot_name": "artist",
+              "text": "Santana"
+            },
+            {
+              "text": " album in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "garage"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play a "
+            },
+            {
+              "entity": "artist",
+              "slot_name": "artist",
+              "text": "Alan Jackson"
+            },
+            {
+              "text": " album "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "phone"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play a "
+            },
+            {
+              "entity": "artist",
+              "slot_name": "artist",
+              "text": "Guns N' Roses"
+            },
+            {
+              "text": " album on "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "smartphone"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "garden"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play some "
+            },
+            {
+              "entity": "musicGenre",
+              "slot_name": "genre",
+              "text": "Acid jazz"
+            },
+            {
+              "text": " music"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play some "
+            },
+            {
+              "entity": "musicGenre",
+              "slot_name": "genre",
+              "text": "Blues"
+            },
+            {
+              "text": " music from "
+            },
+            {
+              "entity": "streamAudioServices",
+              "slot_name": "service",
+              "text": "Youtube music"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play some "
+            },
+            {
+              "entity": "musicGenre",
+              "slot_name": "genre",
+              "text": "Black Metal"
+            },
+            {
+              "text": " music in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "living room"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play some "
+            },
+            {
+              "entity": "musicGenre",
+              "slot_name": "genre",
+              "text": "Chemical Beat"
+            },
+            {
+              "text": " music on "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "telephone"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play some "
+            },
+            {
+              "entity": "musicGenre",
+              "slot_name": "genre",
+              "text": "Classic music"
+            },
+            {
+              "text": " music on "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "mp3 player"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "lounge"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play a "
+            },
+            {
+              "entity": "musicGenre",
+              "slot_name": "genre",
+              "text": "classic"
+            },
+            {
+              "text": " playlist"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play "
+            },
+            {
+              "entity": "song",
+              "slot_name": "song",
+              "text": "Bo Jackson"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "artist",
+              "slot_name": "artist",
+              "text": "Bob Seger & The Silver Bullet Band"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play "
+            },
+            {
+              "entity": "artist",
+              "slot_name": "artist",
+              "text": "Taylor Swift"
+            },
+            {
+              "text": "'s "
+            },
+            {
+              "entity": "song",
+              "slot_name": "song",
+              "text": "Senjutsu"
+            }
+          ]
+        }
+      ]
+    },
+    "postponeEvent": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Postpone "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "tomorrow at 9pm"
+            },
+            {
+              "text": "'s event to "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Postpone "
+            },
+            {
+              "entity": "snips/date",
+              "slot_name": "date",
+              "text": "on Wednesday"
+            },
+            {
+              "text": "'s event from "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "at noon"
+            },
+            {
+              "text": " to "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "at 8 a.m."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Postpone "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "on october 1st at 10am"
+            },
+            {
+              "text": "'s event to "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "4:30 pm"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Postpone "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "at 8 a.m."
+            },
+            {
+              "text": "'s event to "
+            },
+            {
+              "entity": "snips/date",
+              "slot_name": "date",
+              "text": "March 26th"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Postpone "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "4:30 pm"
+            },
+            {
+              "text": "'s appointment to "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "in 1 hour"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Postpone "
+            },
+            {
+              "entity": "snips/date",
+              "slot_name": "date",
+              "text": "saturday january 19"
+            },
+            {
+              "text": "'s appointment from "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "in one hour"
+            },
+            {
+              "text": " to "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "for ten o'clock"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Postpone "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "the 3rd tuesday of June"
+            },
+            {
+              "text": "'s appointment to "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "at ten in the evening"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Postpone "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "tomorrow at 9pm"
+            },
+            {
+              "text": "'s appointment to "
+            },
+            {
+              "entity": "snips/date",
+              "slot_name": "date",
+              "text": "monday 15th april 2019"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Defer "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "today"
+            },
+            {
+              "text": "'s event to "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "on october 1st at 10am"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Defer "
+            },
+            {
+              "entity": "snips/date",
+              "slot_name": "date",
+              "text": "the day after tomorrow"
+            },
+            {
+              "text": "'s event from "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "now"
+            },
+            {
+              "text": " to "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "at noon"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Defer "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "at 8 a.m."
+            },
+            {
+              "text": "'s event to "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "at 8 a.m."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Defer "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "4:30 pm"
+            },
+            {
+              "text": "'s event to "
+            },
+            {
+              "entity": "snips/date",
+              "slot_name": "date",
+              "text": "today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Defer "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "in 1 hour"
+            },
+            {
+              "text": "'s appointment to "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "the 3rd tuesday of June"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Defer "
+            },
+            {
+              "entity": "snips/date",
+              "slot_name": "date",
+              "text": "on Wednesday"
+            },
+            {
+              "text": "'s appointment from "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "4:30 pm"
+            },
+            {
+              "text": " to "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "in one hour"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Defer "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "tomorrow at 9pm"
+            },
+            {
+              "text": "'s appointment to "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "for ten o'clock"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Defer "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "today"
+            },
+            {
+              "text": "'s appointment to "
+            },
+            {
+              "entity": "snips/date",
+              "slot_name": "date",
+              "text": "March 26th"
+            }
+          ]
+        }
+      ]
+    },
+    "setAlarm": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Set the alarm for "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "now"
+            },
+            {
+              "text": " on "
+            },
+            {
+              "entity": "snips/date",
+              "slot_name": "date",
+              "text": "today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wake me up every weekday for "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "at noon"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Set the alarm for "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "at 8 a.m."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Set an alarm for "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "4:30 pm"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Set alarm clock for "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "in one hour"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Can you set the alarm for "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "for ten o'clock"
+            },
+            {
+              "text": " please?"
+            }
+          ]
+        }
+      ]
+    },
+    "setCalendarEvents": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Add an event to my calendar for "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "dateTime",
+              "text": "in 1 hour"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Schedule an event to my calendar for "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "dateTime",
+              "text": "the 3rd tuesday of June"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Create an event on calendar for "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "dateTime",
+              "text": "tomorrow at 9pm"
+            }
+          ]
+        }
+      ]
+    },
+    "setElectronicDevice": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Set the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "radio"
+            },
+            {
+              "text": "'s "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "volume"
+            },
+            {
+              "text": " to "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "twenty one"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "double bedroom"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Set the "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "bright"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "stereo"
+            },
+            {
+              "text": " to "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "three hundred and four"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "full bedroom"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Set the "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "volume"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "light"
+            },
+            {
+              "text": " to "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "2001"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Set the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "lamp"
+            },
+            {
+              "text": "'s "
+            },
+            {
+              "entity": "volume_bright",
+              "slot_name": "vol_bri",
+              "text": "bright"
+            },
+            {
+              "text": " to "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "number",
+              "text": "twenty one"
+            }
+          ]
+        }
+      ]
+    },
+    "setLightColor": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Set the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "double bedroom"
+            },
+            {
+              "text": "'s lights to "
+            },
+            {
+              "entity": "color",
+              "slot_name": "color",
+              "text": "blue"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Make the lights "
+            },
+            {
+              "entity": "color",
+              "slot_name": "color",
+              "text": "yellow"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "full bedroom"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I want the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "guest bedroom"
+            },
+            {
+              "text": " lights to be "
+            },
+            {
+              "entity": "color",
+              "slot_name": "color",
+              "text": "red"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Can you set the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "garage"
+            },
+            {
+              "text": " lights to "
+            },
+            {
+              "entity": "color",
+              "slot_name": "color",
+              "text": "pink"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Please make the lights "
+            },
+            {
+              "entity": "color",
+              "slot_name": "color",
+              "text": "orange"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "garden"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Set the lights color to "
+            },
+            {
+              "entity": "color",
+              "slot_name": "color",
+              "text": "green"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "living room"
+            }
+          ]
+        }
+      ]
+    },
+    "setThermostatTemp": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Set the temperature to "
+            },
+            {
+              "entity": "snips/temperature",
+              "slot_name": "temperature",
+              "text": "70K"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "guest bedroom"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Set the temperature to "
+            },
+            {
+              "entity": "snips/temperature",
+              "slot_name": "temperature",
+              "text": "3\u00b0C"
+            },
+            {
+              "text": " in the house"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Set the temperature to "
+            },
+            {
+              "entity": "snips/temperature",
+              "slot_name": "temperature",
+              "text": "Twenty three degrees"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Set the thermostat to "
+            },
+            {
+              "entity": "snips/temperature",
+              "slot_name": "temperature",
+              "text": "one hundred degrees fahrenheit"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "garage"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Set the thermostat to "
+            },
+            {
+              "entity": "snips/temperature",
+              "slot_name": "temperature",
+              "text": "70K"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Set the thermostat to "
+            },
+            {
+              "entity": "snips/temperature",
+              "slot_name": "temperature",
+              "text": "3\u00b0C"
+            },
+            {
+              "text": " in the house"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Can you set the thermostat to "
+            },
+            {
+              "entity": "snips/temperature",
+              "slot_name": "temperature",
+              "text": "Twenty three degrees"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "garden"
+            },
+            {
+              "text": " please?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Can you set the thermostat to "
+            },
+            {
+              "entity": "snips/temperature",
+              "slot_name": "temperature",
+              "text": "one hundred degrees fahrenheit"
+            },
+            {
+              "text": " please?"
+            }
+          ]
+        }
+      ]
+    },
+    "setTimer": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Set timer for "
+            },
+            {
+              "entity": "snips/duration",
+              "slot_name": "duration",
+              "text": "1h"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Can you set timer for "
+            },
+            {
+              "entity": "snips/duration",
+              "slot_name": "duration",
+              "text": "during two minutes"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Set a "
+            },
+            {
+              "entity": "snips/duration",
+              "slot_name": "duration",
+              "text": "for 20 seconds"
+            },
+            {
+              "text": " timer"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Set a "
+            },
+            {
+              "entity": "snips/duration",
+              "slot_name": "duration",
+              "text": "3 months"
+            },
+            {
+              "text": " timer please"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Set timer for "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "notebook"
+            },
+            {
+              "text": " for "
+            },
+            {
+              "entity": "snips/duration",
+              "slot_name": "duration",
+              "text": "half an hour"
+            }
+          ]
+        }
+      ]
+    },
+    "setVolume": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Mute the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "computer"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "kitchen"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Unmute the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "pc"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "bath"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Mute the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "personal computer"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Unmute the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "electronicDevices",
+              "text": "laptop"
+            }
+          ]
+        }
+      ]
+    },
+    "stopTask": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Stop the "
+            },
+            {
+              "entity": "activity",
+              "slot_name": "task",
+              "text": "timer"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Stop the "
+            },
+            {
+              "entity": "activity",
+              "slot_name": "task",
+              "text": "music"
+            },
+            {
+              "text": " at "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "at ten in the evening"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Can you stop the "
+            },
+            {
+              "entity": "activity",
+              "slot_name": "task",
+              "text": "song"
+            },
+            {
+              "text": " ?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Can you stop the "
+            },
+            {
+              "entity": "activity",
+              "slot_name": "task",
+              "text": "track"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "now"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I need that you stop the "
+            },
+            {
+              "entity": "activity",
+              "slot_name": "task",
+              "text": "album"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I need that you stop the "
+            },
+            {
+              "entity": "activity",
+              "slot_name": "task",
+              "text": "video"
+            },
+            {
+              "text": " at "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "at noon"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Stop "
+            },
+            {
+              "entity": "activity",
+              "slot_name": "task",
+              "text": "film"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Stop "
+            },
+            {
+              "entity": "activity",
+              "slot_name": "task",
+              "text": "movie"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "at 8 a.m."
+            }
+          ]
+        }
+      ]
+    },
+    "turnOFF_ED": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Switch the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "bath"
+            },
+            {
+              "text": "'s "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "device",
+              "text": "iPad"
+            },
+            {
+              "text": " off"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Turn off the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "device",
+              "text": "pad"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "bathroom"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Turn the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "device",
+              "text": "tv"
+            },
+            {
+              "text": " off in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "toilette"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Turn "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "device",
+              "text": "television"
+            },
+            {
+              "text": " off in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "sitting room"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "electronicDevices",
+              "slot_name": "device",
+              "text": "smart tv"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "bedroom"
+            },
+            {
+              "text": ", turn off"
+            }
+          ]
+        }
+      ]
+    },
+    "turnON_ED": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Turn on the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "device",
+              "text": "smartphone"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "lounge"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Turn the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "device",
+              "text": "telephone"
+            },
+            {
+              "text": " on in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "family room"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Turn "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "device",
+              "text": "mp3 player"
+            },
+            {
+              "text": " on in the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "basement"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Switch the "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "cellar"
+            },
+            {
+              "text": "'s "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "device",
+              "text": "iPod"
+            },
+            {
+              "text": " on"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "electronicDevices",
+              "slot_name": "device",
+              "text": "tablet"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "kitchen"
+            },
+            {
+              "text": ", turn on"
+            }
+          ]
+        }
+      ]
+    },
+    "voiceSpeed": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Can you speek more "
+            },
+            {
+              "entity": "speedLevel",
+              "slot_name": "speedLevel",
+              "text": "faster"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Speak "
+            },
+            {
+              "entity": "speedLevel",
+              "slot_name": "speedLevel",
+              "text": "quickly"
+            }
+          ]
+        }
+      ]
+    },
+    "wakeUp": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Wake me at "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "at ten in the evening"
+            },
+            {
+              "text": " with "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "musicTrack",
+              "text": "Harder Better Faster Stronger"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wake me up at "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "now"
+            },
+            {
+              "text": " with the song "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "musicTrack",
+              "text": "Harder Better Faster Stronger"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "language": "en"
+}
