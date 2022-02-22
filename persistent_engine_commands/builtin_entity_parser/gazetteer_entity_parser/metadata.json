@@ -1,0 +1,8 @@
+{
+  "parsers_metadata": [
+    {
+      "entity_identifier": "snips/musicTrack",
+      "entity_parser": "parser_1"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "parsers_metadata": [
+    {
+      "entity_identifier": "activity",
+      "entity_parser": "parser_1"
+    },
+    {
+      "entity_identifier": "artist",
+      "entity_parser": "parser_2"
+    },
+    {
+      "entity_identifier": "color",
+      "entity_parser": "parser_3"
+    },
+    {
+      "entity_identifier": "electronicDevices",
+      "entity_parser": "parser_4"
+    },
+    {
+      "entity_identifier": "location",
+      "entity_parser": "parser_5"
+    },
+    {
+      "entity_identifier": "musicGenre",
+      "entity_parser": "parser_6"
+    },
+    {
+      "entity_identifier": "operator",
+      "entity_parser": "parser_7"
+    },
+    {
+      "entity_identifier": "rescueServices",
+      "entity_parser": "parser_8"
+    },
+    {
+      "entity_identifier": "room",
+      "entity_parser": "parser_9"
+    },
+    {
+      "entity_identifier": "song",
+      "entity_parser": "parser_10"
+    },
+    {
+      "entity_identifier": "speedLevel",
+      "entity_parser": "parser_11"
+    },
+    {
+      "entity_identifier": "streamAudioServices",
+      "entity_parser": "parser_12"
+    },
+    {
+      "entity_identifier": "volume_bright",
+      "entity_parser": "parser_13"
+    }
+  ]
+}
