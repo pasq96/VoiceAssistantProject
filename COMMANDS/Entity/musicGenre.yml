@@ -1,0 +1,46 @@
+# Music Genre Entity
+---
+type: entity
+name: musicGenre
+automatically_extensible: false
+values:
+  - Acid jazz
+  - Blues
+  - Black Metal
+  - Chemical Beat
+  - [Classic music, classic, classical music]
+  - Country
+  - Crossover
+  - [dance, dance music]
+  - Dark
+  - Death Metal
+  - Disco revival
+  - Epic Metal
+  - Folk
+  - Funky
+  - Glam Rock
+  - Gospel
+  - Grunge
+  - Hard Core
+  - Hard House
+  - Hard Rock
+  - Hip-Hop
+  - Industrial 
+  - Jazz
+  - [Jungle, Drumm 'n' bass]
+  - Liscio
+  - Metal
+  - Metalprogressive
+  - Rock progressive
+  - New-Wave
+  - Noise
+  - [Pop, italian Pop]
+  - Progressive house
+  - Psichedelia
+  - Punk Rock
+  - Rap
+  - Trap
+  - Rock'n'roll
+  - SKA
+  - Thrash
+  - Underground

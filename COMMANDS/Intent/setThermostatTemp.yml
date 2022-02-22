@@ -1,0 +1,18 @@
+# setThermostatTemp Intent
+---
+type: intent
+name: setThermostatTemp
+slots:
+  - name: temperature
+    entity: snips/temperature
+  - name: room
+    entity: room
+utterances:
+  - Set the temperature to [temperature] in the [room]
+  - Set the temperature to [temperature] in the house
+  - Set the temperature to [temperature]
+  - Set the thermostat to [temperature] in the [room]
+  - Set the thermostat to [temperature]
+  - Set the thermostat to [temperature] in the house
+  - Can you set the thermostat to [temperature] in the [room] please?
+  - Can you set the thermostat to [temperature] please?

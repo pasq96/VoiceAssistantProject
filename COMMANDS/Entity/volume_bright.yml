@@ -1,0 +1,8 @@
+# Volume_bright Entity
+---
+type: entity
+name: volume_bright
+automatically_extensible: false
+values:
+  - volume
+  - bright

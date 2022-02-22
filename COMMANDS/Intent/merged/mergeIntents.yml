@@ -1,0 +1,572 @@
+# Rescue services entity
+---
+type: entity
+name: rescueServices
+automatically_extensible: false
+values:
+- police
+- [ambulance, EMS]
+- fire
+- military
+- medic
+
+# help Intent
+---
+type: intent
+name: callHelp
+utterances:
+  - Help
+  - Call the [rescueServices]
+  - I need help
+
+   
+ 
+# muteUnmuteIntent
+---
+type: intent
+name: setVolume
+slots:
+  - name: electronicDevices
+    entity: electronicDevices
+  - name: room
+    entity: room
+utterances:
+  - Mute the [electronicDevices] in the [room]
+  - Unmute the [electronicDevices] in the [room]
+  - Mute the [electronicDevices]
+  - Unmute the [electronicDevices]
+
+   
+ 
+# timeIntent
+---
+type: intent
+name: getTime
+utterances:
+  - What time is it?
+  - Do you have the time?
+  - Give me the time
+   
+ 
+# Voice speed Intent
+---
+type: intent
+name: voiceSpeed
+slots:
+  - name: speedLevel
+    entity: speedLevel
+utterances:
+  - Can you speek more [speedLevel]
+  - Speak [speedLevel] 
+ 
+# SetAlarm Intent
+---
+type: intent
+name: setAlarm
+slots:
+  - name: date
+    entity: snips/date
+  - name: time
+    entity: snips/time
+utterances:
+  - Set the alarm for [time] on [date]
+  - Wake me up every weekday for [time]
+  - Set the alarm for [time]
+  - Set an alarm for [time]
+  - Set alarm clock for [time]
+  - Can you set the alarm for [time] please? 
+ 
+# wakeUpIntent
+---
+type: intent
+name: wakeUp
+slots:
+  - name: time
+    entity: snips/time
+  - name: musicTrack
+    entity: snips/musicTrack
+utterances:
+  - Wake me at [time] with [musicTrack]
+  - Wake me up at [time] with the song [musicTrack]
+
+ 
+ 
+# PostponeEvent intent
+---
+type: intent
+name: postponeEvent
+slots:
+  - name: date
+    entity: snips/date
+  - name: datetime
+    entity: snips/datetime
+  - name: time
+    entity: snips/time
+utterances:                
+  - Postpone [datetime]'s event to [datetime]                           # Postpone today at 7pm's appointment to sunday at 6pm                                                            
+  - Postpone [date]'s event from [time] to [time]                       # Postpone tomorrow's event from 2pm to 3pm
+  - Postpone [datetime]'s event to [time]  
+  - Postpone [datetime]'s event to [date]  
+  - Postpone [datetime]'s appointment to [datetime]                     # Postpone today at 7pm's appointment to sunday at 6pm                                                           
+  - Postpone [date]'s appointment from [time] to [time]                 # Postpone tomorrow's event from 2pm to 3pm
+  - Postpone [datetime]'s appointment to [time]  
+  - Postpone [datetime]'s appointment to [date]  
+  - Defer [datetime]'s event to [datetime]                              # Defer today at 7pm's appointment to sunday at 6pm
+  - Defer [date]'s event from [time] to [time]                          # Defer tomorrow's event from 2pm to 3pm
+  - Defer [datetime]'s event to [time]  
+  - Defer [datetime]'s event to [date]  
+  - Defer [datetime]'s appointment to [datetime]                        # Defer today at 7pm's appointment to sunday at 6pm
+  - Defer [date]'s appointment from [time] to [time]                    # Defer tomorrow's event from 2pm to 3pm
+  - Defer [datetime]'s appointment to [time]  
+  - Defer [datetime]'s appointment to [date] 
+
+  
+ 
+# SetTimer Intent
+---
+type: intent
+name: setTimer
+slots:
+  - name: duration
+    entity: snips/duration
+  - name: electronicDevices
+    entity: electronicDevices
+utterances:
+  - Set timer for [duration] 
+  - Can you set timer for [duration]?
+  - Set a [duration] timer
+  - Set a [duration] timer please
+  - Set timer for [electronicDevices] for [duration]
+
+
+
+ 
+ 
+# Operator Entity
+---
+type: entity
+name: operator
+automatically_extensible: false
+values:
+  - [plus, sum, add]
+  - [sub, difference, minus]
+  - multiplied
+  - divided
+  - root
+  - squared
+  - cubed
+  - to
+
+# Math Operations Intent
+---
+type: intent
+name: mathOperations
+slots:
+  - name: number
+    entity: snips/number
+  - name: percentage
+    entity: snips/percentage
+utterances:
+  - What is [number] [operator]?
+  - How much is [number] [operator]?
+  - How much is [number] [operator] [number]?
+  - What is [number] [operator] [number]?
+  - How much is [number] [operator] by [number]? 
+  - What is [number] [operator] by [number]?
+  - What is [percentage] of [number]?
+  - "[operator] between [number] and [number]" 
+ 
+# Stop Intent
+---
+type: intent
+name: stopTask
+slots:
+  - name: task
+    entity: activity
+  - name: time
+    entity: snips/time
+utterances:
+  - Stop the [task]
+  - Stop the [task] at [time]
+  - Can you stop the [task] ?
+  - Can you stop the [task] [time]?
+  - I need that you stop the [task] 
+  - I need that you stop the [task] at [time]
+  - Stop [task]
+  - Stop [task] [time] 
+ 
+# decreaseThermostatTemperature Intent
+---
+type: intent
+name: decreaseThermostatTemperature
+slots:
+  - name: temperature
+    entity: snips/temperature
+  - name: room
+    entity: room
+utterances:
+- Lower the temperature by [temperature] in the [room]
+- Lower the temperature by [temperature]
+- Turn down the temperature by [temperature] in the [room]
+- Turn down the temperature by [temperature]
+- Reduce the temperature by [temperature] in the [room]
+- Reduce the temperature by [temperature]
+- Slow down the temperature by [temperature] in the [room]
+- Slow down the temperature by [temperature]
+
+ 
+ 
+# SetLightColor Intent
+---
+type: intent
+name: setLightColor
+slots:
+  - name: room
+    entity: room
+  - name: color
+    entity: color
+utterances:
+  - Set the [room]'s lights to [color]
+  - Make the lights [color] in the [room]
+  - I want the [room] lights to be [color]
+  - Can you set the [room] lights to [color]?
+  - Please make the lights [color] in the [room]
+  - Set the lights color to [color] in the [room]
+
+ 
+ 
+# commandsWithBluetooth
+---
+type: intent
+name: commandsWithBluetooth
+utterances:
+  - Connect to my [electronicDevices]
+  - Disconnect from my [electronicDevices] 
+ 
+# TurnON Intent
+---
+type: intent
+name: turnON_ED
+slots:
+  - name: device
+    entity: electronicDevices
+  - name: room
+    entity: room
+utterances:
+  - Turn on the [device] in the [room]
+  - Turn the [device] on in the [room]
+  - Turn [device] on in the [room]
+  - Switch the [room]'s [device] on 
+  - "[device] in [room], turn on"
+
+# TurnOFF Intent
+---
+type: intent
+name: turnOFF_ED
+slots:
+  - name: device
+    entity: electronicDevices
+  - name: room
+    entity: room
+utterances:
+  - Switch the [room]'s [device] off 
+  - Turn off the [device] in the [room]
+  - Turn the [device] off in the [room]
+  - Turn [device] off in the [room]
+  - "[device] in [room], turn off"
+
+ 
+ 
+# Get weather
+---
+type: intent
+name: getWeather
+slots:
+  - name: weatherLocation
+    entity: location
+  - name: weatherDate
+    entity: snips/datetime
+utterances:
+  - Give me the weather forecast for [weatherLocation] [weatherDate]
+  - What kind of weather should I expect [weatherDate] in [weatherLocation]?
+  # - Will it be sunny in [weatherLocation] [weatherDate]?
+  - What will be the weather in [weatherLocation] [weatherDate]?
+  # - Tell me if it is going to rain [weatherDate] in [weatherLocation]
+  - What is the weather in [weatherLocation]?
+  - What is the weather in [weatherLocation] [weatherDate]?
+  - What is the weather in [weatherDate] [weatherLocation]?
+  - What is the weather like in [weatherLocation] [weatherDate]?
+  - How will the weather be in [weatherLocation] [weatherDate]?
+  - How was the weather in [weatherLocation] [weatherDate]? 
+ 
+# setElectronicDevice
+---
+type: intent
+name: setElectronicDevice
+slots:
+  - name: electronicDevices
+    entity: electronicDevices
+  - name: number
+    entity: snips/number
+  - name: room
+    entity: room
+  - name: vol_bri
+    entity: volume_bright
+
+utterances:
+  - Set the [electronicDevices]'s [vol_bri] to [number] in the [room]
+  - Set the [vol_bri] of [electronicDevices] to [number] in the [room]
+  - Set the [vol_bri] of [electronicDevices] to [number]
+  - Set the [electronicDevices]'s [vol_bri] to [number] 
+ 
+# increaseVolumeIntent
+---
+type: intent
+name: increaseElectronicDevice
+slots:
+  - name: electronicDevices
+    entity: electronicDevices
+  - name: number
+    entity: snips/number
+  - name: room
+    entity: room
+  - name: vol_bri
+    entity: volume_bright
+utterances:
+  - Increase the [electronicDevices]'s [vol_bri] by [number] in the [room]
+  - Increase the [vol_bri] of [electronicDevices] by [number] in the [room]
+  - Increase the [vol_bri] of [electronicDevices] by [number]
+  - Increase the [electronicDevices]'s [vol_bri] by [number]
+  - Raise the [electronicDevices]'s [vol_bri] by [number] in the [room]
+  - Raise the [vol_bri] of [electronicDevices] by [number] in the [room]
+  - Raise the [vol_bri] of [electronicDevices] by [number]
+  - Raise the [electronicDevices]'s [vol_bri] by [number]
+  - Boost the [electronicDevices]'s [vol_bri] by [number] in the [room]
+  - Boost the [vol_bri] of [electronicDevices] by [number] in the [room]
+  - Boost the [vol_bri] of [electronicDevices] by [number]
+  - Boost the [electronicDevices]'s [vol_bri] by [number]
+  - Amplify the [electronicDevices]'s [vol_bri] by [number] in the [room]
+  - Amplify the [vol_bri] of [electronicDevices] by [number] in the [room]
+  - Amplify the [vol_bri] of [electronicDevices] by [number]
+  - Amplify the [electronicDevices]'s [vol_bri] by [number]
+  
+
+ 
+ 
+# decreaseElectronicDevice
+---
+type: intent
+name: decreaseElectronicDevice
+slots:
+  - name: electronicDevices
+    entity: electronicDevices
+  - name: number
+    entity: snips/number
+  - name: room
+    entity: room
+  - name: vol_bri
+    entity: volume_bright
+utterances:
+  - Decrease the [electronicDevices]'s [vol_bri] by [number] in the [room]
+  - Decrease the [vol_bri] of [electronicDevices] by [number] in the [room]
+  - Decrease the [vol_bri] of [electronicDevices] by [number]
+  - Decrease the [electronicDevices]'s [vol_bri] by [number]
+  - Turn down the [electronicDevices]'s [vol_bri] by [number] in the [room]
+  - Turn down the [vol_bri] of [electronicDevices] by [number] in the [room]
+  - Turn down the [vol_bri] of [electronicDevices] by [number]
+  - Turn down the [electronicDevices]'s [vol_bri] by [number]
+  - Reduce the [electronicDevices]'s [vol_bri] of [number] in the [room]
+  - Reduce the [vol_bri] of [electronicDevices] of [number] in the [room]
+  - Reduce the [vol_bri] of [electronicDevices] of [number]
+  - Reduce the [electronicDevices]'s [vol_bri] of [number]
+  - Slow down the [electronicDevices]'s [vol_bri] by [number] in the [room]
+  - Slow down the [vol_bri] of [electronicDevices] by [number] in the [room]
+  - Slow down the [vol_bri] of [electronicDevices] by [number]
+  - Slow down the [electronicDevices]'s [vol_bri] by [number]
+
+ 
+ 
+# Calendar Command Intent
+---
+type: intent
+name: getcalendarEvents
+slots:
+  - name: dateTime
+    entity: snips/datetime
+utterances:
+  - What is on calendar [dateTime]?
+  - What I will do [dateTime]?
+ 
+ 
+# Calendar Command Intent
+---
+type: intent
+name: setCalendarEvents
+slots:
+  - name: dateTime
+    entity: snips/datetime
+utterances:
+  - Add an event to my calendar for [dateTime] 
+  - Schedule an event to my calendar for [dateTime] 
+  - Create an event on calendar for [dateTime]
+ 
+ 
+# setThermostatTemp Intent
+---
+type: intent
+name: setThermostatTemp
+slots:
+  - name: temperature
+    entity: snips/temperature
+  - name: room
+    entity: room
+utterances:
+  - Set the temperature to [temperature] in the [room]
+  - Set the temperature to [temperature] in the house
+  - Set the temperature to [temperature]
+  - Set the thermostat to [temperature] in the [room]
+  - Set the thermostat to [temperature]
+  - Set the thermostat to [temperature] in the house
+  - Can you set the thermostat to [temperature] in the [room] please?
+  - Can you set the thermostat to [temperature] please? 
+ 
+# Get Thermostat Temperature Intent
+---
+type: intent
+name: getThermostatTemperature
+slots:
+  - name: room
+    entity: room
+utterances:
+- What temperature is thermostat set to?
+- What temperature is thermostat set to in the house?
+- What temperature is thermostat set to in the [room]?
+ 
+ 
+# increaseThermostatTemp Intent
+---
+type: intent
+name: increaseThermostatTemp
+slots:
+  - name: temperature
+    entity: snips/temperature
+  - name: room
+    entity: room
+utterances:
+- Raise the temperature by [temperature] in the [room]
+- Raise the temperature by [temperature] 
+- Increase the temperature by [temperature] in the [room]
+- Increase the temperature by [temperature]
+- Boost the temperature by [temperature] in the [room]
+- Boost the temperature by [temperature]
+ 
+ 
+# Anticipate Event intent
+---
+type: intent
+name: AnticipateEvent
+slots:
+  - name: date
+    entity: snips/date
+  - name: datetime
+    entity: snips/datetime
+  - name: time
+    entity: snips/time
+utterances:                
+  - Anticipate [datetime]'s event to [datetime]                           # Anticipate sunday at 7pm's appointment to today at 6pm                                                            
+  - Anticipate [date]'s event from [time] to [time]                       # Anticipate tomorrow's event from 3pm to 2pm
+  - Anticipate [datetime]'s event to [time]  
+  - Anticipate [datetime]'s event to [date]  
+  - Anticipate [datetime]'s appointment to [datetime]                           
+  - Anticipate [date]'s appointment from [time] to [time]                 
+  - Anticipate [datetime]'s appointment to [time]  
+  - Anticipate [datetime]'s appointment to [date]  
+  - Pre-empt [datetime]'s event to [datetime]                                # Pre-empt sundat at 7pm's appointment to today at 6pm
+  - Pre-empt [date]'s event from [time] to [time]                            # Pre-empt tomorrow's event from 3pm to 2pm
+  - Pre-empt [datetime]'s event to [time]  
+  - Pre-empt [datetime]'s event to [date]  
+  - Pre-empt [datetime]'s appointment to [datetime]                        
+  - Pre-empt [date]'s appointment from [time] to [time]                    
+  - Pre-empt [datetime]'s appointment to [time]  
+  - Pre-empt [datetime]'s appointment to [date] 
+
+ 
+
+  
+ 
+# Get room temperature Intent
+---
+type: intent
+name: getRoomTemperature
+slots:
+  - name: room
+    entity: room
+utterances:
+- What is the temperature?
+- What is the temperature in the house?
+- What is the temperature in the [room]? 
+ 
+# Play music Intent
+---
+type: intent
+name: playMusic
+slots:
+  - name: song
+    entity: song
+  - name: artist
+    entity: artist
+  - name: room
+    entity: room
+  - name: genre
+    entity: musicGenre
+  - name: electronicDevices
+    entity: electronicDevices
+  - name: service
+    entity: streamAudioServices
+utterances:
+  - Play [song]
+  - Play [song] from [service]
+  - Play [song] in the [room]
+  - Play [song] in the [room] from [service]
+  - Play [song] on [electronicDevices] in the [room]
+  - Play a song by [artist]                                                   #Play a song of Linking Park 
+  - Play a track by [artist]                                                  #Play a track of Linking Park 
+
+  - Play a [artist] track                                                     #Play a Linking Park track
+  - Play a [artist] song                                                      #Play a Linking Park song 
+  - Play [artist] track in the [room]
+  - Play [artist] song in the [room]
+  - Play [artist] track on [electronicDevices]
+  - Play [artist] song on [electronicDevices]
+  - Play [artist] track on [electronicDevices] in the [room] 
+  - Play [artist] song on [electronicDevices] in the [room] 
+
+  - Play an album by [artist]                                                 #Play an album of Linking Park 
+  - Play an album by [artist] in the [room]
+  - Play an album by [artist] on [electronicDevices]
+  - Play an album by [artist] on [electronicDevices] in the [room]
+  - Play a [artist] album                                                     #Play a Linking Park album    
+  - Play a [artist] album in the [room]
+  - Play a [artist] album [electronicDevices]  
+  - Play a [artist] album on [electronicDevices] in the [room] 
+                                     
+  - Play some [genre] music
+  - Play some [genre] music from [service]
+  - Play some [genre] music in the [room] 
+  - Play some [genre] music on [electronicDevices]
+  - Play some [genre] music on [electronicDevices] in the [room] 
+  - Play a [genre] playlist
+
+  - Play [song] by [artist]                                                   #Play Coldplay's Everyday Life
+  - Play [artist]'s [song]                                                    #Play Coldplay's Paradise                                                 
+
+  #- Play [album]
+  #- Play [album] from [service]
+  #- Play [album] in the [room]
+  #- Play [album] 
+  #- Play the [album] on [electronicDevices] in the [room] 
+  #- Play [artist]
+  #- Play [artist] in the [room]
+  #- Play the [artist] on [electronicDevices] in the [room] 
+  #- Play a track of [artist] 
+ 

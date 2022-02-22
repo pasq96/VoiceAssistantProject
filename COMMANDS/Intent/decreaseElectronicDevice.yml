@@ -1,0 +1,31 @@
+# decreaseElectronicDevice
+---
+type: intent
+name: decreaseElectronicDevice
+slots:
+  - name: electronicDevices
+    entity: electronicDevices
+  - name: number
+    entity: snips/number
+  - name: room
+    entity: room
+  - name: vol_bri
+    entity: volume_bright
+utterances:
+  - Decrease the [electronicDevices]'s [vol_bri] by [number] in the [room]
+  - Decrease the [vol_bri] of [electronicDevices] by [number] in the [room]
+  - Decrease the [vol_bri] of [electronicDevices] by [number]
+  - Decrease the [electronicDevices]'s [vol_bri] by [number]
+  - Turn down the [electronicDevices]'s [vol_bri] by [number] in the [room]
+  - Turn down the [vol_bri] of [electronicDevices] by [number] in the [room]
+  - Turn down the [vol_bri] of [electronicDevices] by [number]
+  - Turn down the [electronicDevices]'s [vol_bri] by [number]
+  - Reduce the [electronicDevices]'s [vol_bri] of [number] in the [room]
+  - Reduce the [vol_bri] of [electronicDevices] of [number] in the [room]
+  - Reduce the [vol_bri] of [electronicDevices] of [number]
+  - Reduce the [electronicDevices]'s [vol_bri] of [number]
+  - Slow down the [electronicDevices]'s [vol_bri] by [number] in the [room]
+  - Slow down the [vol_bri] of [electronicDevices] by [number] in the [room]
+  - Slow down the [vol_bri] of [electronicDevices] by [number]
+  - Slow down the [electronicDevices]'s [vol_bri] by [number]
+

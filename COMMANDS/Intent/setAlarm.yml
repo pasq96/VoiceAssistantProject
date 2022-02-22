@@ -1,0 +1,16 @@
+# SetAlarm Intent
+---
+type: intent
+name: setAlarm
+slots:
+  - name: date
+    entity: snips/date
+  - name: time
+    entity: snips/time
+utterances:
+  - Set the alarm for [time] on [date]
+  - Wake me up every weekday for [time]
+  - Set the alarm for [time]
+  - Set an alarm for [time]
+  - Set alarm clock for [time]
+  - Can you set the alarm for [time] please?

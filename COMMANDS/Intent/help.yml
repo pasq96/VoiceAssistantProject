@@ -1,0 +1,22 @@
+# Rescue services entity
+---
+type: entity
+name: rescueServices
+automatically_extensible: false
+values:
+- police
+- [ambulance, EMS]
+- fire
+- military
+- medic
+
+# help Intent
+---
+type: intent
+name: callHelp
+utterances:
+  - Help
+  - Call the [rescueServices]
+  - I need help
+
+  

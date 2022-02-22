@@ -1,0 +1,32 @@
+# setPermissionYes Intent
+---
+type: intent
+name: setPermissionYes
+slots:
+  - name: user
+    entity: user
+  - name: command
+    entity: command
+utterances:
+- "[user] can [command]"                                                                      #Carmine can turn on the light
+- "[user] can ask to [command]"                                                               #Carmine can ask to turn on the light
+   
+- "[user] is authorized to [command]"                                                         #Carmine is authorized to turn on the light
+- "[user] is authorized to ask to [command]"                                                  #Carmine is authorized to ask to turn on the light
+
+- "[user] has the authorization to [command]"                                                 #Carmine has the authorization to turn on the light
+- "[user] has the authorization to ask [command]"                                             #Carmine has the authorization to ask to turn on the light
+
+- "[user] is consented to [command]"                                                          #Carmine is consented to turn on the light
+- "[user] is consented to ask to [command]"                                                   #Carmine is consented to ask to turn on the light
+
+- "[user] has the consent to [command]"                                                       #Carmine has the consent to turn on the light
+- "[user] has the consent to ask to[command]"                                                 #Carmine has the consent to ask to turn on the light
+
+- "[user] must be able to [command]"                                                          #Carmine must be able to turn on the light
+- "[user] must be able to ask to[command]"                                                    #Carmine must be able to ask to turn on the light
+
+
+# "Pasquale deve stare nello slot 'user'"
+# 'turn on the light' deve stare nello slot 'command'""
+# vi sono le virgolette all'inizio e alla fine di goni utterances perchè yaml da problemi con le frasi che iniziano con parentesi quadre come in questo caso

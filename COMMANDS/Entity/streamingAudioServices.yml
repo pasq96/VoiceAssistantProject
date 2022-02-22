@@ -1,0 +1,16 @@
+# Streaming audio services list
+---
+type: entity
+name: streamAudioServices
+automatically_extensible: no
+values:
+  - Amazon music
+  - Spotify
+  - Youtube music
+  - Youtube
+  - Apple Music
+  - Tidal
+  - Primephonic
+  - Deezer
+  - Qobuz
+  

@@ -1,0 +1,372 @@
+# Room Entity
+---
+type: entity
+name: room
+use_synonyms: true
+automatically_extensible: false
+matching_strictness: 1.0
+values:
+  - kitchen
+  - [bath, bathroom, toilette]
+  - sitting room
+  - bedroom
+  - double bedroom
+  - full bedroom
+  - guest bedroom
+  - garage
+  - garden
+  - [living room, lounge, family room]
+  - [basement, cellar] 
+ 
+# Color Entity
+---
+type: entity
+name: color
+automatically_extensible: true # default value is true
+use_synonyms: true # default value is true
+matching_strictness: 1.0 # default value is 1.0
+values:
+  - blue
+  - yellow
+  - red
+  - pink
+  - orange
+  - green
+  - grey
+  - black
+  - white
+  - brown
+  - purple 
+ 
+# Electronic Devices
+---
+type: entity
+name: electronicDevices
+values:
+  - [computer, pc, personal computer, laptop, notebook, home computer]
+  - [phone, smartphone, telephone]
+  - [mp3 player, iPod]
+  - [tablet, iPad, pad]
+  - [tv, television, smart tv]
+  - [radio, stereo]
+  - [light, lamp, bulb]
+  - [Air conditioner, conditioner]
+  - [headset, earphones]
+  - alarm clock             # sveglia 
+ 
+# SpeedLevel Entity
+---
+type: entity
+name: speedLevel
+values:
+  - [faster, quickly]
+  - [slower, slowly]
+  - default 
+ 
+# Activity Entity
+---
+type: entity
+name: activity
+automatically_extensible: false
+values:
+  - timer
+  - [music, song, track]
+  - album
+  - [video, film, movie]
+  - alarm                    
+ 
+# Music Genre Entity
+---
+type: entity
+name: musicGenre
+automatically_extensible: false
+values:
+  - Acid jazz
+  - Blues
+  - Black Metal
+  - Chemical Beat
+  - [Classic music, classic, classical music]
+  - Country
+  - Crossover
+  - [dance, dance music]
+  - Dark
+  - Death Metal
+  - Disco revival
+  - Epic Metal
+  - Folk
+  - Funky
+  - Glam Rock
+  - Gospel
+  - Grunge
+  - Hard Core
+  - Hard House
+  - Hard Rock
+  - Hip-Hop
+  - Industrial 
+  - Jazz
+  - [Jungle, Drumm 'n' bass]
+  - Liscio
+  - Metal
+  - Metalprogressive
+  - Rock progressive
+  - New-Wave
+  - Noise
+  - [Pop, italian Pop]
+  - Progressive house
+  - Psichedelia
+  - Punk Rock
+  - Rap
+  - Trap
+  - Rock'n'roll
+  - SKA
+  - Thrash
+  - Underground 
+ 
+# Streaming audio services list
+---
+type: entity
+name: streamAudioServices
+automatically_extensible: no
+values:
+  - Amazon music
+  - Spotify
+  - Youtube music
+  - Youtube
+  - Apple Music
+  - Tidal
+  - Primephonic
+  - Deezer
+  - Qobuz
+   
+ 
+# Artist Entity
+---
+type: entity
+name: artist
+automatically_extensible: true
+values:
+- Dave Matthews Band 
+- Britney Spears 
+- Bon Jovi 
+- Def Leppard 
+- Bob Dylan 
+- Tupac Shakur 
+- Backstreet Boys 
+- Tim McGraw 
+- Rod Stewart 
+- Foreigner 
+- Simon & Garfunkel 
+- Chicago 
+- Eric Clapton 
+- Reba McEntire 
+- Queen 
+- Santana 
+- Alan Jackson 
+- Guns N' Roses
+- Bob Seger & The Silver Bullet Band 
+- Taylor Swift 
+- Eminem 
+- Alabama 
+- Kenny Rogers
+- Shania Twain 
+- Kenny G
+- Journey 
+- Neil Diamond
+- Celine Dion
+- U2 
+- Fleetwood Mac 
+- Van Halen 
+- Whitney Houston
+- Metallica 
+- Madonna 
+- Bruce Springsteen 
+- The Rolling Stones 
+- Aerosmith 
+- Mariah Carey
+- Barbra Streisand 
+- George Strait 
+- Pink Floyd 
+- AC/DC 
+- Elton John
+- Billy Joel
+- Michael Jackson
+- Led Zeppelin 
+- Eagles 
+- Elvis Presley 
+- Garth Brooks 
+- The Beatles  
+ 
+# Location Entity
+---
+type: entity
+name: location
+values:
+- Dublin
+- Riyadh
+- Ha Long
+- Madrid
+- Venice
+- Moscow
+- Orlando
+- Athens
+- Cairo
+- Berlin
+- Cancun
+- Jaipur
+- Johor Bahru
+- Vienna
+- Chennai
+- Milan
+- Las Vegan
+- Barcelona
+- Denpasar
+- Ho Chi Minh City
+- Shanghai
+- Los Angeles
+- Osaka
+- Miami
+- Agra
+- Amsterdam
+- Seoul
+- Medina
+- Prague
+- Guangzhou
+- Mecca
+- Taipei
+- Pattaya
+- Tokyo
+- Rome
+- Phuket
+- Mumbai
+- Shenzhen
+- Antalya
+- Delhi
+- Istanbul
+- Kuala Lumpur
+- New York 
+- Dubai
+- Paris
+- Singapore
+- Macau
+- London
+- Rio de janeiro
+- Naples
+- Avellino 
+ 
+# Volume_bright Entity
+---
+type: entity
+name: volume_bright
+automatically_extensible: false
+values:
+  - volume
+  - bright
+ 
+ 
+# Song Entity
+---
+type: entity
+name: song
+automatically_extensible: true
+values:
+- Daddy's Home'
+- The Horses and the Hounds 
+- Certified Lover Boy
+- Timelezz
+- Fight or Escape
+- Bo Jackson
+- Senjutsu
+- Lyke Mike
+- Let Me Do One More
+- Remember Her Name
+- Medicine at Midnight
+- Don’t Go Tellin’ Your Momma
+- Stand for Myself
+- Shiesty Season
+- Sometimes I Might Be Introvert
+- An Evening With Silk Sonic
+- Driver
+- Still Over It 
+- Valentine
+- Sound Ancestors
+- When Smoke Rises
+- Punk
+- Niñxs Rotxs
+- Ignorance
+- Afrique Victime
+- '29'
+- New Long Leg
+- El Alimento
+- Second Line
+- Planet Her
+- Gold-Diggers Sound
+- Collapsed in Sunbeams
+- If I Can’t Have Love, I Want Power
+- If Orange Was a Place'
+- Hey What
+- Happier Than Ever
+- Hall of Fame
+- Reckless
+- To Hell With It
+- Whole Lotta Red
+- Jubilee
+- El Madrileño
+- Glow On
+- Heaux Tales
+- Montero
+- Home Video
+- Call Me If You Get Lost
+- Vice Versa
+- '30'
+- Sour
+- Smells Like Teen Spirit         #da qui album
+- Imagine 
+- One 
+- Billie Jean 
+- Bohemian Rhapsody 
+- Hey Jude 
+- Like A Rolling Stone 
+- I Can't Get No Satisfaction 
+- God Save The Queen 
+- Sweet Child O'Mine 
+- London Calling 
+- Waterloo Sunset 
+- Hotel California  
+- Your Song 
+- Stairway To Heaven 
+- The Twist 
+- Live Forever
+- I Will Always Love You 
+- Life On Mars? 
+- Heartbreak Hotel
+- Over The Rainbow 
+- What's Goin' On
+- Born To Run 
+- Be My Baby 
+- Creep 
+- Bridge Over Troubled Water
+- Respect
+- Family Affair 
+- Dancing Queen 
+- Good Vibrations 
+- Purple Haze 
+- Yesterday 
+- Jonny B Good 
+- No Woman No Cry 
+- Hallelujah 
+- Every Breath You Take 
+- A Day In The Life 
+- Stand By Me - Ben E King
+- Papa's Got A Brand New Bag 
+- Gimme Shelter
+- What'd I Say 
+- Sultans Of Swing 
+- God Only Knows 
+- You've Lost That Lovin' Feeling 
+- My Generation 
+- Dancing In The Street 
+- When Doves Cry 
+- A Change Is Gonna Come 
+- River Deep Mountain High 
+- Best Of My Love  
+ 

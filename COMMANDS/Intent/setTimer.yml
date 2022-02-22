@@ -1,0 +1,18 @@
+# SetTimer Intent
+---
+type: intent
+name: setTimer
+slots:
+  - name: duration
+    entity: snips/duration
+  - name: electronicDevices
+    entity: electronicDevices
+utterances:
+  - Set timer for [duration] 
+  - Can you set timer for [duration]?
+  - Set a [duration] timer
+  - Set a [duration] timer please
+  - Set timer for [electronicDevices] for [duration]
+
+
+

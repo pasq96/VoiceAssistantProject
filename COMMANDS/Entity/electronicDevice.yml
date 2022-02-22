@@ -1,0 +1,15 @@
+# Electronic Devices
+---
+type: entity
+name: electronicDevices
+values:
+  - [computer, pc, personal computer, laptop, notebook, home computer]
+  - [phone, smartphone, telephone]
+  - [mp3 player, iPod]
+  - [tablet, iPad, pad]
+  - [tv, television, smart tv]
+  - [radio, stereo]
+  - [light, lamp, bulb]
+  - [Air conditioner, conditioner]
+  - [headset, earphones]
+  - alarm clock             # sveglia

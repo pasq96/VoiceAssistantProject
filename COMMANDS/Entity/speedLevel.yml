@@ -1,0 +1,8 @@
+# SpeedLevel Entity
+---
+type: entity
+name: speedLevel
+values:
+  - [faster, quickly]
+  - [slower, slowly]
+  - default

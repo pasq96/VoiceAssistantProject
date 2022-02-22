@@ -1,0 +1,39 @@
+# setPermissionNo Intent
+---
+type: intent
+name: setPermissionNo
+slots:
+  - name: user
+    entity: user
+  - name: command
+    entity: command
+utterances:
+- "[user] is not allowed to [command]"                                                          #Carmine is not allowed to turn on the light
+- "[user] is not allowed to ask to [command]"                                                   #Carmine is not allowed to ask to turn on the light                                                          
+
+- "[user] does not have the approval to [command]"                                              #Carmine does not have the approval to turn on the light
+- "[user] does not have the approval to ask to [command]"                                       #Carmine does not have the approval to ask to turn on the light
+
+- "[user] is not permitted to [command]"                                                        #Carmine is not permitted to turn on the light
+- "[user] is not permitted to ask to [command]"                                                 #Carmine is not permitted to ask to turn on the light
+- "[user] does not have the permission to [command]"                                            #Carmine does not have the permission to turn on the light
+- "[user] does not have the permission to ask to [command]"                                     #Carmine does not have the permission to ask to turn on the light  
+
+- "[user] is disallowed to [command]"                                                           #Carmine is disallowed to turn on the light
+- "[user] is disallowed to ask to [command]"                                                    #Carmine is disallowed to ask to turn on the light
+
+- "[user] is denied to [command]"                                                               #Carmine is denied to turn on the light
+- "[user] is denied to ask to [command]"                                                        #Carmine is denied to ask to turn on the light
+
+#- "[user] is disapproved to [command]"                                                         #Carmine is disapproved to turn on the light (dubbio per inglese)
+
+#sinonimi - contrari
+
+#allowed, permitted, consented to - denied, prohibited
+#authorized, approved, licensed, permitted - disapprove, disallow, denied, prohibited
+
+# Il problema de sinonimi non dovrebbe esserci per addAdmin e removeAdmin perchè i verbi sono diversi ma bisogna fare le prove
+# Modificare l'entity "command" per cerca di generalizzare Ex: Carmine turn on the light in the - Carmine turn on the light in the kitche to
+# "Pasquale deve stare nello slot 'user'"
+# 'turn on the light' deve stare nello slot 'command'""
+# vi sono le virgolette all'inizio e alla fine di goni utterances perchè yaml da problemi con le frasi che iniziano con parentesi quadre come in questo caso

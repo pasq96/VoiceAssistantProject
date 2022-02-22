@@ -1,0 +1,19 @@
+# Color Entity
+---
+type: entity
+name: color
+automatically_extensible: true # default value is true
+use_synonyms: true # default value is true
+matching_strictness: 1.0 # default value is 1.0
+values:
+  - blue
+  - yellow
+  - red
+  - pink
+  - orange
+  - green
+  - grey
+  - black
+  - white
+  - brown
+  - purple

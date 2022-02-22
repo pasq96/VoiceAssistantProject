@@ -1,0 +1,10 @@
+# Voice speed Intent
+---
+type: intent
+name: voiceSpeed
+slots:
+  - name: speedLevel
+    entity: speedLevel
+utterances:
+  - Can you speek more [speedLevel]
+  - Speak [speedLevel]

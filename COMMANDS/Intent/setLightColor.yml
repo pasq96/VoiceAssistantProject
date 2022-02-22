@@ -1,0 +1,17 @@
+# SetLightColor Intent
+---
+type: intent
+name: setLightColor
+slots:
+  - name: room
+    entity: room
+  - name: color
+    entity: color
+utterances:
+  - Set the [room]'s lights to [color]
+  - Make the lights [color] in the [room]
+  - I want the [room] lights to be [color]
+  - Can you set the [room] lights to [color]?
+  - Please make the lights [color] in the [room]
+  - Set the lights color to [color] in the [room]
+

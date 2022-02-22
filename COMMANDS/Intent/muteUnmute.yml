@@ -1,0 +1,16 @@
+# muteUnmuteIntent
+---
+type: intent
+name: setVolume
+slots:
+  - name: electronicDevices
+    entity: electronicDevices
+  - name: room
+    entity: room
+utterances:
+  - Mute the [electronicDevices] in the [room]
+  - Unmute the [electronicDevices] in the [room]
+  - Mute the [electronicDevices]
+  - Unmute the [electronicDevices]
+
+  

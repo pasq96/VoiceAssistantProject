@@ -1,0 +1,18 @@
+# Stop Intent
+---
+type: intent
+name: stopTask
+slots:
+  - name: task
+    entity: activity
+  - name: time
+    entity: snips/time
+utterances:
+  - Stop the [task]
+  - Stop the [task] at [time]
+  - Can you stop the [task] ?
+  - Can you stop the [task] [time]?
+  - I need that you stop the [task] 
+  - I need that you stop the [task] at [time]
+  - Stop [task]
+  - Stop [task] [time]

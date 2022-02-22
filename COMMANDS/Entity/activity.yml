@@ -1,0 +1,11 @@
+# Activity Entity
+---
+type: entity
+name: activity
+automatically_extensible: false
+values:
+  - timer
+  - [music, song, track]
+  - album
+  - [video, film, movie]
+  - alarm                   

@@ -1,0 +1,773 @@
+# User Entity
+---
+type: entity
+name: user
+automatically_extensible: true
+values: 
+- Giuseppe
+- Giovanni
+- Anna
+- Antonio
+- Giuseppina
+- Mario
+- Rosa
+- Luigi
+- Angela
+- Francesco
+- Giovanna
+- Angelo
+- Teresa
+- Vincenzo
+- Lucia
+- Pietro
+- Carmela
+- Salvatore
+- Caterina
+- Carlo
+- Francesca
+- Franco
+- Anna Maria
+- Domenico
+- Antonietta
+- Bruno
+- Carla
+- Paolo
+- Elena
+- Michele
+- Concetta
+- Giorgio
+- Rita
+- Aldo
+- Margherita
+- Sergio
+- Franca
+- Luciano
+- Paola
+- Carmine
+- Pasquale
+- Vincenzo
+- Bernardo
+- Adele
+- Alessia
+- Alice
+- Anita
+- Anna
+- Arianna
+- Asia
+- Aurora
+- Azzurra
+- Beatrice
+- Benedetta
+- Bianca
+- Camilla
+- Carlotta
+- Caterina
+- Cecilia
+- Chiara
+- Chloe
+- Elena
+- Eleonora
+- Elisa
+- Emily
+- Emma
+- Eva
+- Francesca
+- Gaia
+- Giada
+- Ginerva
+- Gioia
+- Giorgia
+- Giulia
+- Greta
+- Irene
+- Isabel
+- Ludovica
+- Margherita
+- Maria
+- Marta
+- Martina
+- Matilde
+- Melissa
+- Mia
+- Miriam
+- Nicole
+- Noemi
+- Rebecca
+- Sara
+- Sofia
+- Viola
+- Vittoria
+- Abramo
+- Alessandro
+- Alessio
+- Andrea
+- Antonio
+- Brando
+- Christian
+- Daniel
+- Davide
+- Diego
+- Domenico
+- Edoardo
+- Elia
+- Emanuele
+- Enea
+- Federico
+- Filippo
+- Francesco
+- Franco
+- Gabriel
+- Giacomo
+- Gioele
+- Giorgio
+- Giovanni
+- Giulio
+- Giuseppe
+- Jacopo
+- Leonardo
+- Lorenzo
+- Luca
+- Luigi
+- Manuel
+- Marco
+- Matteo
+- Mattia
+- Michele
+- Nathan
+- Nicola
+- Nicolo
+- Pietro
+- Raffaele
+- Riccardo
+- Salvatore
+- Samuel
+- Simone
+- Stefano
+- Thomas
+- Tommaso
+- Valerio
+- Vincenzo
+- Adriano
+- Alberto
+- Aldo
+- Alessandro
+- Alessio
+- Alfredo
+- Andrea
+- Angelo
+- Antonio
+- Antonello
+- Augusto
+- Bernardo
+- Biagio
+- Bruno
+- Camillo
+- Carlo
+- Claudio
+- Corrado
+- Cosimo
+- Cristian
+- Daniele
+- Dario
+- Davide
+- Diego
+- Domenico
+- Elio
+- Edoardo
+- Emilio
+- Emiliano
+- Ernesto
+- Ezio
+- Fabio
+- Fausto
+- Federico
+- Felice
+- Ferdinando
+- Filippo
+- Francesco
+- Fulvio
+- Gabriele
+- Giacomo
+- Gianluca
+- Gioele
+- Giovanni
+- Giuliano
+- Giulio
+- Guido
+- Lapo
+- Leonardo
+- Lorenzo
+- Luca
+- Lucio
+- Ludovico
+- Luigi
+- Marcello
+- Marco
+- Mario
+- Massimo
+- Massimiliano
+- Matteo
+- Mattia
+- Maurizio
+- Mauro
+- Michele
+- Mirco
+- Neri
+- Nicola
+- Niccolo’
+- Paolo
+- Patrizio
+- Pietro
+- Raffaele
+- Raffaello
+- Renato
+- Raul
+- Riccardo
+- Roberto
+- Rocco
+- Rosario
+- Ruggero
+- Salvatore
+- Salvo
+- Samuele
+- Saverio
+- Sebastiano
+- Sergio
+- Silvio
+- Simone
+- Stefano
+- Tiziano
+- Tommaso
+- Tullio
+- Ugo
+- Umberto
+- Valentino
+- Valerio
+- Vito
+- Vittorio
+- Walter
+- Zeno
+
+#English names
+- James
+- Mary
+- Robert
+- Patricia
+- John
+- Jennifer
+- Michael
+- Linda
+- William
+- Elizabeth
+- David
+- Barbara
+- Richard
+- Susan
+- Joseph
+- Jessica
+- Thomas
+- Sarah
+- Charles
+- Karen
+- Christopher
+- Nancy
+- Daniel
+- Lisa
+- Matthew
+- Betty
+- Anthony
+- Margaret
+- Mark
+- Sandra
+- Donald
+- Ashley
+- Steven
+- Kimberly
+- Paul
+- Emily
+- Andrew
+- Donna
+- Joshua
+- Michelle
+- Kenneth
+- Dorothy
+- Kevin
+- Carol
+- Brian
+- Amanda
+- George
+- Melissa
+- Edward
+- Deborah
+- Ronald
+- Stephanie
+- Timothy
+- Rebecca
+- Jason
+- Sharon
+- Jeffrey
+- Laura
+- Ryan
+- Cynthia
+- Jacob
+- Kathleen
+- Gary
+- Amy
+- Nicholas
+- Shirley
+- Eric
+- Angela
+- Jonathan
+- Helen
+- Stephen
+- Anna
+- Larry
+- Brenda
+- Justin
+- Pamela
+- Scott
+- Nicole
+- Brandon
+- Emma
+- Benjamin
+- Samantha
+- Samuel
+- Katherine
+- Gregory
+- Christine
+- Frank
+- Debra
+- Alexander
+- Rachel
+- Raymond
+- Catherine
+- Patrick
+- Carolyn
+- Jack
+- Janet
+- Dennis
+- Ruth
+- Jerry
+- Tyler
+- Heather
+- Aaron
+- Diane
+- Jose
+- Virginia
+- Adam
+- Julie
+- Henry
+- Joyce
+- Nathan
+- Victoria
+- Douglas
+- Olivia
+- Zachary
+- Kelly
+- Peter
+- Christina
+- Kyle
+- Lauren
+- Walter
+- Joan
+- Ethan
+- Evelyn
+- Jeremy
+- Judith
+- Harold
+- Megan
+- Keith
+- Cheryl
+- Christian
+- Andrea
+- Roger
+- Hannah
+- Noah
+- Martha
+- Gerald
+- Jacqueline
+- Carl
+- Frances
+- Terry
+- Gloria
+- Sean
+- Ann
+- Austin
+- Teresa
+- Arthur
+- Kathryn
+- Lawrence
+- Sara
+- Jesse
+- Janice
+- Dylan
+- Jean
+- Bryan
+- Alice
+- Joe
+- Madison
+- Jordan
+- Doris
+- Billy
+- Abigail
+- Bruce
+- Julia
+- Albert
+- Judy
+- Willie
+- Grace
+- Gabriel
+- Denise
+- Logan
+- Alan
+- Marilyn
+- Juan
+- Beverly
+- Wayne
+- Danielle
+- Roy
+- Theresa
+- Ralph
+- Sophia
+- Randy
+- Marie
+- Eugene
+- Diana
+- Vincent
+- Brittany
+- Russell
+- Natalie
+- Elijah
+- Isabella
+- Louis
+- Charlotte
+- Bobby
+- Rose
+- Philip
+- Alexis
+- Johnny
+- Kayla 
+ 
+# Command Entity 
+---
+type: entity
+name: command
+automatically_extensible: true
+values:
+#ok
+- Anticipate
+- Anticipate sunday at 7pm's event to 
+- Anticipate sunday at 7pm's event to today at 6pm
+- Anticipate sunday at 7pm's event to today at 6pm 
+- Anticipate tomorrow's event from
+- Anticipate tomorrow's event from 3pm to
+- Anticipate tomorrow's event from 3pm to 2pm
+- Pre-empt
+- Pre-empt sunday at 7pm's event to 
+- Pre-empt sunday at 7pm's event to today at 6pm
+- Pre-empt sunday at 7pm's event to today at 6pm 
+- Pre-empt tomorrow's event from
+- Pre-empt tomorrow's event from 3pm to
+- Pre-empt tomorrow's event from 3pm to 2pm
+
+#ok
+- Connect to my 
+- Disconnect from my 
+
+#ok
+- Can you speak more 
+- Speak
+
+#ok
+- Decrease the
+- Decrease the phone's volume by
+- Decrease the phone's volume by 5 in the 
+- Decrease the phone's bright by 
+- Decrease the volume of
+- Decrease the volume of phone by 
+- Decrease the volume of phone by 5 in the 
+- Turn down the
+- Turn down the phone's bright by
+- Turn down the phone's bright by 5 in the 
+- Turn down the phone's bright by 
+- Turn down the volume of
+- Turn down the volume of phone by 
+- Turn down the volume of phone by 5 in the
+- Slow down the
+- Slow down the phone's bright by
+- Slow down the phone's bright by 5 in the 
+- Slow down the phone's bright by 
+- Slow down the volume of
+- Slow down the volume of phone by 
+- Slow down the volume of phone by 5 in the
+
+#ok
+- Lower the temperature by
+- Lower the temperature by 5 degrees in the
+- Turn down the temperature by 
+- Turn down the temperature by 5 degrees in the
+- Slow down the temperature by 
+- Slow down the temperature by 5 degrees in the
+
+#ok
+- What is on calendar
+- What I will do
+ 
+#ok
+- What is the temperature?
+- What is the temperature in the
+
+#ok
+- What temperature is thermostat set to?
+- What temperature is thermostat set to in the
+
+#ok
+- What's the time?
+- What time is it?
+- Do you have the time?
+- Give him the time
+- Give her the time
+
+#ok
+- Give him the weather forecast for
+- Give her the weather forecast for Los Angeles 
+- What kind of weather should I expect 
+- What kind of weather should I expect today in
+- What will be the weather in
+- What will be the weather in Los Angeles
+- What will be the weather in
+- What will be the weather in Paris
+- What is the weather in
+- What is the weather in this afternoon
+- What is the weather like in
+- What is the weather like in Tokyo
+- How will the weather be in
+- How will the weather be in Paris
+- How was the weather in
+- How was the weather in Rio de Janeiro
+
+#ok
+- Help
+- Call the
+- I need help
+
+#ok
+- Increase the
+- Increase the phone's volume by 
+- Increase the phone's volume by 10 in the 
+- Increase the volume of 
+- Increase the bright of phone by 
+- Increase the volume of phone by 10 in the
+- Increase the phone's bright by
+- Raise the
+- Raise the phone's volume by 
+- Raise the phone's volume by 10 in the 
+- Raise the volume of 
+- Raise the bright of phone by 
+- Raise the volume of phone by 10 in the
+- Raise the phone's bright by
+- Boost the
+- Boost the phone's volume by 
+- Boost the phone's volume by 10 in the 
+- Boost the volume of 
+- Boost the bright of phone by 
+- Boost the volume of phone by 10 in the
+- Boost the phone's bright by
+- Amplify the
+- Amplify the phone's volume by 
+- Amplify the phone's volume by 10 in the 
+- Amplify the volume of 
+- Amplify the bright of phone by 
+- Amplify the volume of phone by 10 in the
+- Amplify the phone's bright by
+
+#ok
+- Raise the temperature by 
+- Raise the temperature by twenty degrees in the
+- Increase the temperature by
+- Increase the temperature by 3°C in the 
+- Boost the temperature by 
+- Boost the temperature by 70K in the 
+
+#ok
+- What is
+- What is five 
+- What is five root?
+- How much is
+- How much is 5 
+- How much is 5 squared?
+- How much is 10 plus
+- What is ten multiplied
+- How much is 20 sub by  
+- What is 4 add by 
+- What is 25% of
+- Difference between 30 and
+
+#ok
+- Mute the
+- Mute the phone 
+- Mute the phone in the
+- Unmute the
+- Unmute the phone 
+- Unmute the phone in the
+
+#ok
+- Play 
+- Play paradise
+- Play clocks from 
+- Play in my place in the 
+- Play mediterranea in the kitchen from 
+- Play nera on
+- Play nera on phone 
+- Play nera on phone in the
+- Play a song by                                                  
+- Play a track by                                                  
+- Play a Coldplay track                                                     
+- Play a Linking Park song                                                      
+- Play U2 track in the
+- Play Freddie Mercury song in the 
+- Play Laura Pausini track on 
+- Play Pino Daniele track on phone 
+- Play Pino Daniele track on phone in the
+- Play Lucio Dalla song on
+- Play Lucio Dalla track on phone 
+- Play Lucio Dalla track on phone in the
+- Play Jovanotti 
+- Play Jovanotti on tablet
+- Play Jovanotti on tablet in the
+- Play an album by                                              
+- Play an album by Elton John 
+- Play an album by Elton John in the
+- Play an album by Fedez on 
+- Play an album by Tiziano Ferro on phone in the 
+- Play a Taido Cruz album                                                     
+- Play a Salmo album in the 
+- Play a Emma Marrone album on tablet
+- Play a Emma Marrone album on tablet in the               
+- Play some 
+- Play some jazz music
+- Play some rock'n'roll music from 
+- Play some dark music in the  
+- Play some metal music on 
+- Play some hard core music on phone in the
+- Play a blues playlist
+- Play viva la vida by 
+- Play Coldplay's
+
+#ok
+- Postpone
+- Postpone today at 7pm's event to
+- Postpone tomorrow's event from                                                                          
+- Postpone tomorrow's event from 2pm to
+- Postpone today at 7pm's appointment to
+- Postpone tomorrow's appointment from                                                                              
+- Postpone tomorrow's appointment from 2pm to
+- Defer
+- Defer today at 7pm's event to
+- Defer tomorrow's event from                                                                           
+- Defer tomorrow's event from 2pm to
+- Defer today at 7pm's appointment to
+- Defer tomorrow's appointment from                                                                          
+- Defer tomorrow's appointment from 2pm to
+
+#ok
+- Set the alarm for
+- Set the alarm for 17pm on
+- Wake me up every weekday for
+- Set the alarm for
+- Set an alarm for
+- Set alarm clock for
+
+#ok
+- Add an event to my calendar for
+- Schedule an event to my calendar for
+- Create an event on calendar for
+
+#ok
+- Set the
+- Set the phone's
+- Set the phone's volume to
+- Set the phone's volume to 10
+- Set the phone's volume to 10 in the
+- Set the bright of
+- Set the bright of tablet to
+- Set the bright of tablet to 15 in the
+- Set the volume of
+- Set the volume of phone to
+
+#ok
+- Set the
+- Set the living room's light to
+- Make the lights
+- Make the lights yellow in the
+- I want the
+- I want the kitchen lights to be
+- Can you set the
+- Can you set the bathroom lights to
+- Please make the lights
+- Please make the lights blue in the
+- Set the lights color to
+- Set the lights color to violet in the
+- Want the
+- Want the kitchen lights to be
+
+#ok
+- Set the temperature to
+- Set the temperature to twenty degrees in the                                  #aggiustamento
+- Set the temperature to 3°C in the house
+- Set the thermostat to
+- Set the thermostat to ten degrees in the
+- Set the thermostat to 50K in the house
+- Can you set the temperature to    
+- Can you set the temperature to one hundred degrees fahrenheit in the          #aggiunta
+- Can you set the thermostat to                                                 #aggiunta
+- Can you set the thermostat to two hundred degrees fahrenheit in the   
+
+#ok
+- Set timer for
+- Can you set timer for
+- Set a
+- Set a 1h timer
+- Set timer for
+- Set timer for phone
+- Set timer for phone for 3h
+
+#ok
+- Stop the
+- Stop the alarm at
+- Can you stop the
+- Can you stop the timer
+- I need that you stop the
+- I need that you stop the movie at
+- Stop
+- Stop film
+
+#ok
+- Turn on the
+- Turn on the light in the
+- Turn the
+- Turn the phone on
+- Turn the tablet on in the
+- Turn
+- Turn phone on
+- Turn phone on in the 
+- Switch the               
+- Switch the kitchen's              #dubbio (ovviamente anche nelle utterances successive) 
+- Switch the kitchen's phone on
+- Turn off the
+- Turn off the light in the
+- Turn the
+- Turn the tablet off
+- Turn the tablet off in the
+- Turn
+- Turn phone off
+- Turn phone off in the
+- Switch the           
+- Switch the kitchen's              #dubbio (ovviamente anche nelle utterances successive) 
+- Switch the kitchen's phone off
+
+#ok
+- Wake me at
+- Wake me at 7 with
+- Wake me up at 8 with the song 
+ 

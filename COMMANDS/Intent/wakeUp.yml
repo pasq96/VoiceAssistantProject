@@ -1,0 +1,13 @@
+# wakeUpIntent
+---
+type: intent
+name: wakeUp
+slots:
+  - name: time
+    entity: snips/time
+  - name: musicTrack
+    entity: snips/musicTrack
+utterances:
+  - Wake me at [time] with [musicTrack]
+  - Wake me up at [time] with the song [musicTrack]
+

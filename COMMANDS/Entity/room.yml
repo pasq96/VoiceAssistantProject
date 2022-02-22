@@ -1,0 +1,19 @@
+# Room Entity
+---
+type: entity
+name: room
+use_synonyms: true
+automatically_extensible: false
+matching_strictness: 1.0
+values:
+  - kitchen
+  - [bath, bathroom, toilette]
+  - sitting room
+  - bedroom
+  - double bedroom
+  - full bedroom
+  - guest bedroom
+  - garage
+  - garden
+  - [living room, lounge, family room]
+  - [basement, cellar]

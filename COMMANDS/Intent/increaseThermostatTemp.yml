@@ -1,0 +1,16 @@
+# increaseThermostatTemp Intent
+---
+type: intent
+name: increaseThermostatTemp
+slots:
+  - name: temperature
+    entity: snips/temperature
+  - name: room
+    entity: room
+utterances:
+- Raise the temperature by [temperature] in the [room]
+- Raise the temperature by [temperature] 
+- Increase the temperature by [temperature] in the [room]
+- Increase the temperature by [temperature]
+- Boost the temperature by [temperature] in the [room]
+- Boost the temperature by [temperature]

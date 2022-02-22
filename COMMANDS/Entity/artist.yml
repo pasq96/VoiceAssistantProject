@@ -1,0 +1,56 @@
+# Artist Entity
+---
+type: entity
+name: artist
+automatically_extensible: true
+values:
+- Dave Matthews Band 
+- Britney Spears 
+- Bon Jovi 
+- Def Leppard 
+- Bob Dylan 
+- Tupac Shakur 
+- Backstreet Boys 
+- Tim McGraw 
+- Rod Stewart 
+- Foreigner 
+- Simon & Garfunkel 
+- Chicago 
+- Eric Clapton 
+- Reba McEntire 
+- Queen 
+- Santana 
+- Alan Jackson 
+- Guns N' Roses
+- Bob Seger & The Silver Bullet Band 
+- Taylor Swift 
+- Eminem 
+- Alabama 
+- Kenny Rogers
+- Shania Twain 
+- Kenny G
+- Journey 
+- Neil Diamond
+- Celine Dion
+- U2 
+- Fleetwood Mac 
+- Van Halen 
+- Whitney Houston
+- Metallica 
+- Madonna 
+- Bruce Springsteen 
+- The Rolling Stones 
+- Aerosmith 
+- Mariah Carey
+- Barbra Streisand 
+- George Strait 
+- Pink Floyd 
+- AC/DC 
+- Elton John
+- Billy Joel
+- Michael Jackson
+- Led Zeppelin 
+- Eagles 
+- Elvis Presley 
+- Garth Brooks 
+- The Beatles 

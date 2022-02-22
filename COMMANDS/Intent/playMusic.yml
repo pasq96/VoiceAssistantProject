@@ -1,0 +1,63 @@
+# Play music Intent
+---
+type: intent
+name: playMusic
+slots:
+  - name: song
+    entity: song
+  - name: artist
+    entity: artist
+  - name: room
+    entity: room
+  - name: genre
+    entity: musicGenre
+  - name: electronicDevices
+    entity: electronicDevices
+  - name: service
+    entity: streamAudioServices
+utterances:
+  - Play [song]
+  - Play [song] from [service]
+  - Play [song] in the [room]
+  - Play [song] in the [room] from [service]
+  - Play [song] on [electronicDevices] in the [room]
+  - Play a song by [artist]                                                   #Play a song of Linking Park 
+  - Play a track by [artist]                                                  #Play a track of Linking Park 
+
+  - Play a [artist] track                                                     #Play a Linking Park track
+  - Play a [artist] song                                                      #Play a Linking Park song 
+  - Play [artist] track in the [room]
+  - Play [artist] song in the [room]
+  - Play [artist] track on [electronicDevices]
+  - Play [artist] song on [electronicDevices]
+  - Play [artist] track on [electronicDevices] in the [room] 
+  - Play [artist] song on [electronicDevices] in the [room] 
+
+  - Play an album by [artist]                                                 #Play an album of Linking Park 
+  - Play an album by [artist] in the [room]
+  - Play an album by [artist] on [electronicDevices]
+  - Play an album by [artist] on [electronicDevices] in the [room]
+  - Play a [artist] album                                                     #Play a Linking Park album    
+  - Play a [artist] album in the [room]
+  - Play a [artist] album [electronicDevices]  
+  - Play a [artist] album on [electronicDevices] in the [room] 
+                                     
+  - Play some [genre] music
+  - Play some [genre] music from [service]
+  - Play some [genre] music in the [room] 
+  - Play some [genre] music on [electronicDevices]
+  - Play some [genre] music on [electronicDevices] in the [room] 
+  - Play a [genre] playlist
+
+  - Play [song] by [artist]                                                   #Play Coldplay's Everyday Life
+  - Play [artist]'s [song]                                                    #Play Coldplay's Paradise                                                 
+
+  #- Play [album]
+  #- Play [album] from [service]
+  #- Play [album] in the [room]
+  #- Play [album] 
+  #- Play the [album] on [electronicDevices] in the [room] 
+  #- Play [artist]
+  #- Play [artist] in the [room]
+  #- Play the [artist] on [electronicDevices] in the [room] 
+  #- Play a track of [artist]

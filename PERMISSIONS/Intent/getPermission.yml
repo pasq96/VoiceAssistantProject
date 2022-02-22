@@ -1,0 +1,72 @@
+# getPermission Intent
+---
+type: intent
+name: getPermission
+slots:
+  - name: user
+    entity: user
+utterances:
+#admin
+- What are the actions that I can not do?                               #Quali sono le azioni che non posso fare?  
+- What are the actions that I cannot perform?                           #Quali sono le azioni che non posso svolgere? | Quali sono le azioni che non posso eseguire?                          
+- Tell me the list of actions not that I can perform                    #Dimmi l'elenco delle azioni non che posso svolgere | Dimmi l'elenco delle azioni non che posso eseguire
+- Tell me the list of actions not that I can do                         #Dimmi l'elenco delle azioni non che posso fare  
+- Tell me the actions I cannot perform                                  #Dimmi le azioni che non posso svolgere | Dimmi le azioni che non posso eseguire
+- Tell me the actions I can't do                                        #Dimmi le azioni che non posso fare
+- List the actions I cannot perform                                     #Elencami le azioni che non posso svolgere | Elencami le azioni che non posso eseguire
+- List the actions I can't do                                           #Elencami le azioni che non posso fare
+- List the permissions I don't have                                     #Elencami i permessi che non ho
+- Tell me the permissions I don't have                                  #Dimmi i permessi che non ho
+- Tell me the list of permissions I don't have                          #Dimmi l'elenco dei permessi che non ho
+- What can't I do?                                                      #Cosa non posso eseguire? |Cosa non posso svolgere?| Cosa non posso fare?
+- What are the actions that I cannot perform?                           #Quali sono le azioni che non posso eseguire? | Quali sono le azioni che non posso svolgere?
+- What are the actions that I can not do?                               #Quali sono le azioni che non posso fare?
+- Tell me the list of actions I cannot perform                          #Dimmi l'elenco delle azioni che non posso eseguire | Dimmi l'elenco delle azioni che non posso svolgere
+- Tell me the list of actions I can't do                                #Dimmi l'elenco delle azioni che non posso fare
+- What can't I do?                                                      #Cosa non posso eseguire? | Cosa non posso svolgere? | Cosa non posso fare?
+- List the permissions that I am not entitled to                        #Elenca i permessi a cui non ho diritto
+- List the permissions I am not entitled to                             #Elenca i permessi a cui non ho diritto
+- List the permissions that are not due to me                           #Elenca i permessi che non mi sono dovuti
+
+#user
+- What are the actions that [user] cannot do?                          #Quali sono le azioni che Carmine non può fare?
+- What are the actions that [user] cannot carry out?                   #Quali sono le azioni che Carmine non può svolgere?
+- What are the actions that [user] cannot perform?                     #Quali sono le azioni che Carmine non può eseguire?
+- Tell me the list of actions that [user] cannot perform               #Dimmi l'elenco delle azioni che Carmine non può svolgere  
+- Tell me the list of actions that [user] cannot do                    #Dimmi l'elenco delle azioni che Carmine non può fare
+- Tell me the list of actions that [user] cannot perform               #Dimmi l'elenco delle azioni che Carmine non può eseguire
+- Tell me the actions that [user] cannot perform                       #Dimmi le azioni che Carmine non può eseguire | Dimmi le azioni che Carmine non può svolgere
+- Tell me the actions that [user] cannot do                            #Dimmi le azioni che Carmine non può fare
+- List the actions that [user] cannot perform                          #Elencami le azioni che Carmine non può eseguire | Elencami le azioni che Carmine non può svolgere
+- List the actions that [user] cannot do                               #Elencami le azioni che Cramine non può fare                   
+- List the permissions [user] doesn't have                             #Elencami i permessi che Carmine non ha
+- Tell me the list of permits that [user] doesn't have                 #Dimmi l'elenco dei permessi che Carmine non ha
+- Tell me the list of permissions that [user] doesn't have             #Dimmi l'elenco dei permessi che non ha Carmine
+- Tell me the permissions that [user] doesn't have                     #Dimmi i permessi che Carmine non ha
+- Tell me the permissions that [user] does not have                    #Dimmi i permessi che non ha Carmine
+- Tell me the list of actions that [user] cannot perform               #Dimmi l'elenco delle azioni che Carmine non può eseguire | Dimmi l'elenco delle azioni che Carmine non può svolgere | Dimmi l'elenco delle azioni che non può eseguire Carmine
+- Tell me the list of actions that [user] cannot do                    #Dimmi l'elenco delle azioni che Carmine non può fare |Dimmi l'elenco delle azioni che non può fare Carmine                  
+- Tell me the list of actions that [user] cannot carry out             #Dimmi l'elenco delle azioni che non può svolgere Carmine
+- What can't [user] do?                                                #Cosa non può eseguire Carmine? | Cosa Carmine non può svolgere? | Cosa non può svolgere Carmine? | Cosa non può fare Carmine? | Cosa Carmine non può fare? | Cosa non può eseguire Carmine?
+- What can [user] not perform?                                         #Cosa Carmine non può eseguire? | Cosa Carmine non può eseguire?
+- List the permissions that are not due to [user]                      #Elencami i permessi che non spettano a Carmine  
+- List the permissions that [user] is not entitled to                  #Elencami i permessi che a Carmine non spettano
+- List the permissions to which [user] is not entitled                 #Elencami i permessi a cui Carmine non ha diritto | Elencami i permessi a cui non ha diritto Carmine
+ 
+
+#- Elencami i permessi di Carmine
+#- Elencami i permessi dell'utente Carmine
+#- Quali sono i permessi di Carmine?
+#- Dimmmi i permessi che Carmine non ha 
+#- Dimmi le azioni che Camine non può esguire
+#- Dimmi le azioni che Carmine non può fare? (Perchè i permission sono in ottica blackList)             
+#- Cosa Pasquale non può fare (perchè ragioniamo in ottica blackList)
+
+# Vogliamo che l'intent name sia "getpermission" e come unico slot "user" perchè si va a fare una print di tutti i permessi negati per quell'utente (dunque cosa 
+# non può fare l'utente, proprio per questo serve solo il nome dell'utente), in modo tale che poi nello script si prende l'utente dagli slot e si va a leggere 
+# all'interno del file dei permessi cosa l'utente può fare
+# Dal lato programmatico si va a contrallare se l'intentName è getPermission. Se lo è viene stampata la lista dei comandi che l'utente non può fare
+# (Ex. "dimmi le azioni che non posso fare" e dal lato programmatico si vanno a stampare la lista dei comandi che non possono essere effettuati da quell'utente)
+# Ogni utente può chiedere per se stesso e solo l'admin può chiedere per gli altri utenti
+# Ex. se Pasquale è admin può chidere per tutti gli utenti può decidere cosa può fare Carmine e cosa non può fare (Pasquale-Carmine cosa non può fare è ok)
+# Ex2. se Pasquale non è admin può chiedere solo di lui (Pasquale-Carmine cosa non può fare deve restituire errore) - queste cose lato programmatico

@@ -1,0 +1,11 @@
+# Get room temperature Intent
+---
+type: intent
+name: getRoomTemperature
+slots:
+  - name: room
+    entity: room
+utterances:
+- What is the temperature?
+- What is the temperature in the house?
+- What is the temperature in the [room]?

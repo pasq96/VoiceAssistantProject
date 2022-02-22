@@ -1,0 +1,10 @@
+# Calendar Command Intent
+---
+type: intent
+name: getcalendarEvents
+slots:
+  - name: dateTime
+    entity: snips/datetime
+utterances:
+  - What is on calendar [dateTime]?
+  - What I will do [dateTime]?

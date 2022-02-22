@@ -1,0 +1,19 @@
+# setElectronicDevice
+---
+type: intent
+name: setElectronicDevice
+slots:
+  - name: electronicDevices
+    entity: electronicDevices
+  - name: number
+    entity: snips/number
+  - name: room
+    entity: room
+  - name: vol_bri
+    entity: volume_bright
+
+utterances:
+  - Set the [electronicDevices]'s [vol_bri] to [number] in the [room]
+  - Set the [vol_bri] of [electronicDevices] to [number] in the [room]
+  - Set the [vol_bri] of [electronicDevices] to [number]
+  - Set the [electronicDevices]'s [vol_bri] to [number]

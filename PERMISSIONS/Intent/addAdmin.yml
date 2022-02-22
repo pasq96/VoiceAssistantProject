@@ -1,0 +1,17 @@
+# addAdmin Intent
+---
+type: intent
+name: addAdmin
+slots:
+  - name: user
+    entity: user
+utterances:
+- Add [user] as administrator                                           #Add Carmine as administrator (dubbio per l'inglese)
+- Add [user] as an administrator                                        #Add Carmine as an administrator (dubbio per l'inglese)
+- '[user] is a new administrator'                                       #Carmine is a new administrator'
+
+- Add [user] as admin                                                   #Add Carmine as admin Add Carmine as admin
+- Add [user] as an admin                                                #Add Carmine as an admin
+- '[user] is a new admin'                                               #Carmine is a new admin'
+
+# Solo si è admin si possono fare i set

@@ -1,0 +1,11 @@
+# Get Thermostat Temperature Intent
+---
+type: intent
+name: getThermostatTemperature
+slots:
+  - name: room
+    entity: room
+utterances:
+- What temperature is thermostat set to?
+- What temperature is thermostat set to in the house?
+- What temperature is thermostat set to in the [room]?

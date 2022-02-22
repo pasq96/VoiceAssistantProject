@@ -1,0 +1,9 @@
+# timeIntent
+---
+type: intent
+name: getTime
+utterances:
+  - What time is it?
+  - Do you have the time?
+  - Give me the time
+  

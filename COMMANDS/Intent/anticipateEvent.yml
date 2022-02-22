@@ -1,0 +1,32 @@
+# Anticipate Event intent
+---
+type: intent
+name: AnticipateEvent
+slots:
+  - name: date
+    entity: snips/date
+  - name: datetime
+    entity: snips/datetime
+  - name: time
+    entity: snips/time
+utterances:                
+  - Anticipate [datetime]'s event to [datetime]                           # Anticipate sunday at 7pm's appointment to today at 6pm                                                            
+  - Anticipate [date]'s event from [time] to [time]                       # Anticipate tomorrow's event from 3pm to 2pm
+  - Anticipate [datetime]'s event to [time]  
+  - Anticipate [datetime]'s event to [date]  
+  - Anticipate [datetime]'s appointment to [datetime]                           
+  - Anticipate [date]'s appointment from [time] to [time]                 
+  - Anticipate [datetime]'s appointment to [time]  
+  - Anticipate [datetime]'s appointment to [date]  
+  - Pre-empt [datetime]'s event to [datetime]                                # Pre-empt sundat at 7pm's appointment to today at 6pm
+  - Pre-empt [date]'s event from [time] to [time]                            # Pre-empt tomorrow's event from 3pm to 2pm
+  - Pre-empt [datetime]'s event to [time]  
+  - Pre-empt [datetime]'s event to [date]  
+  - Pre-empt [datetime]'s appointment to [datetime]                        
+  - Pre-empt [date]'s appointment from [time] to [time]                    
+  - Pre-empt [datetime]'s appointment to [time]  
+  - Pre-empt [datetime]'s appointment to [date] 
+
+ 
+
+ 

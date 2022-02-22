@@ -1,0 +1,11 @@
+# Calendar Command Intent
+---
+type: intent
+name: setCalendarEvents
+slots:
+  - name: dateTime
+    entity: snips/datetime
+utterances:
+  - Add an event to my calendar for [dateTime] 
+  - Schedule an event to my calendar for [dateTime] 
+  - Create an event on calendar for [dateTime]

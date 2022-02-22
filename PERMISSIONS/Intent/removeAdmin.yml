@@ -1,0 +1,21 @@
+# removeAdmin Intent
+---
+type: intent
+name: removeAdmin
+slots:
+  - name: user
+    entity: user
+utterances:                                                       
+- Remove [user] as an administrator                               #Remove as administrator Carmine
+- Remove [user] from administrator                                #Remove Carmine from administrator                          
+- '[user] is no longer an administrator'                          #Carmine is no longer an administrator
+
+- Remove [user] as an admin                                       #Remove Camine as an admin
+- Remove [user] from admin                                        #Remove Camine from admin
+- '[user] is no longer an admin'                                  #Carmine is no longer an admin
+
+- Delete [user] as an admin                                       #Delete Camine as an admin
+- Delete [user] from admin                                        ##Delete Camine from admin
+
+- Delete [user] as an administrator                               #Delete Camine as an admin
+- Delete [user] from administrator                                ##Delete Camine from administrator  

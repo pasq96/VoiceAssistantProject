@@ -1,0 +1,19 @@
+# decreaseThermostatTemperature Intent
+---
+type: intent
+name: decreaseThermostatTemperature
+slots:
+  - name: temperature
+    entity: snips/temperature
+  - name: room
+    entity: room
+utterances:
+- Lower the temperature by [temperature] in the [room]
+- Lower the temperature by [temperature]
+- Turn down the temperature by [temperature] in the [room]
+- Turn down the temperature by [temperature]
+- Reduce the temperature by [temperature] in the [room]
+- Reduce the temperature by [temperature]
+- Slow down the temperature by [temperature] in the [room]
+- Slow down the temperature by [temperature]
+

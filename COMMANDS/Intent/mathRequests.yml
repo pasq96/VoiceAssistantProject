@@ -1,0 +1,33 @@
+# Operator Entity
+---
+type: entity
+name: operator
+automatically_extensible: false
+values:
+  - [plus, sum, add]
+  - [sub, difference, minus]
+  - multiplied
+  - divided
+  - root
+  - squared
+  - cubed
+  - to
+
+# Math Operations Intent
+---
+type: intent
+name: mathOperations
+slots:
+  - name: number
+    entity: snips/number
+  - name: percentage
+    entity: snips/percentage
+utterances:
+  - What is [number] [operator]?
+  - How much is [number] [operator]?
+  - How much is [number] [operator] [number]?
+  - What is [number] [operator] [number]?
+  - How much is [number] [operator] by [number]? 
+  - What is [number] [operator] by [number]?
+  - What is [percentage] of [number]?
+  - "[operator] between [number] and [number]"

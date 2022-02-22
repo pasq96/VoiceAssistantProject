@@ -1,0 +1,56 @@
+# Location Entity
+---
+type: entity
+name: location
+values:
+- Dublin
+- Riyadh
+- Ha Long
+- Madrid
+- Venice
+- Moscow
+- Orlando
+- Athens
+- Cairo
+- Berlin
+- Cancun
+- Jaipur
+- Johor Bahru
+- Vienna
+- Chennai
+- Milan
+- Las Vegan
+- Barcelona
+- Denpasar
+- Ho Chi Minh City
+- Shanghai
+- Los Angeles
+- Osaka
+- Miami
+- Agra
+- Amsterdam
+- Seoul
+- Medina
+- Prague
+- Guangzhou
+- Mecca
+- Taipei
+- Pattaya
+- Tokyo
+- Rome
+- Phuket
+- Mumbai
+- Shenzhen
+- Antalya
+- Delhi
+- Istanbul
+- Kuala Lumpur
+- New York 
+- Dubai
+- Paris
+- Singapore
+- Macau
+- London
+- Rio de janeiro
+- Naples
+- Avellino

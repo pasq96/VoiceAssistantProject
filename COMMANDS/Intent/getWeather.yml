@@ -1,0 +1,21 @@
+# Get weather
+---
+type: intent
+name: getWeather
+slots:
+  - name: weatherLocation
+    entity: location
+  - name: weatherDate
+    entity: snips/datetime
+utterances:
+  - Give me the weather forecast for [weatherLocation] [weatherDate]
+  - What kind of weather should I expect [weatherDate] in [weatherLocation]?
+  # - Will it be sunny in [weatherLocation] [weatherDate]?
+  - What will be the weather in [weatherLocation] [weatherDate]?
+  # - Tell me if it is going to rain [weatherDate] in [weatherLocation]
+  - What is the weather in [weatherLocation]?
+  - What is the weather in [weatherLocation] [weatherDate]?
+  - What is the weather in [weatherDate] [weatherLocation]?
+  - What is the weather like in [weatherLocation] [weatherDate]?
+  - How will the weather be in [weatherLocation] [weatherDate]?
+  - How was the weather in [weatherLocation] [weatherDate]?

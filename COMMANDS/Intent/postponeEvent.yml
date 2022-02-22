@@ -1,0 +1,30 @@
+# PostponeEvent intent
+---
+type: intent
+name: postponeEvent
+slots:
+  - name: date
+    entity: snips/date
+  - name: datetime
+    entity: snips/datetime
+  - name: time
+    entity: snips/time
+utterances:                
+  - Postpone [datetime]'s event to [datetime]                           # Postpone today at 7pm's appointment to sunday at 6pm                                                            
+  - Postpone [date]'s event from [time] to [time]                       # Postpone tomorrow's event from 2pm to 3pm
+  - Postpone [datetime]'s event to [time]  
+  - Postpone [datetime]'s event to [date]  
+  - Postpone [datetime]'s appointment to [datetime]                     # Postpone today at 7pm's appointment to sunday at 6pm                                                           
+  - Postpone [date]'s appointment from [time] to [time]                 # Postpone tomorrow's event from 2pm to 3pm
+  - Postpone [datetime]'s appointment to [time]  
+  - Postpone [datetime]'s appointment to [date]  
+  - Defer [datetime]'s event to [datetime]                              # Defer today at 7pm's appointment to sunday at 6pm
+  - Defer [date]'s event from [time] to [time]                          # Defer tomorrow's event from 2pm to 3pm
+  - Defer [datetime]'s event to [time]  
+  - Defer [datetime]'s event to [date]  
+  - Defer [datetime]'s appointment to [datetime]                        # Defer today at 7pm's appointment to sunday at 6pm
+  - Defer [date]'s appointment from [time] to [time]                    # Defer tomorrow's event from 2pm to 3pm
+  - Defer [datetime]'s appointment to [time]  
+  - Defer [datetime]'s appointment to [date] 
+
+ 

@@ -1,0 +1,32 @@
+# increaseVolumeIntent
+---
+type: intent
+name: increaseElectronicDevice
+slots:
+  - name: electronicDevices
+    entity: electronicDevices
+  - name: number
+    entity: snips/number
+  - name: room
+    entity: room
+  - name: vol_bri
+    entity: volume_bright
+utterances:
+  - Increase the [electronicDevices]'s [vol_bri] by [number] in the [room]
+  - Increase the [vol_bri] of [electronicDevices] by [number] in the [room]
+  - Increase the [vol_bri] of [electronicDevices] by [number]
+  - Increase the [electronicDevices]'s [vol_bri] by [number]
+  - Raise the [electronicDevices]'s [vol_bri] by [number] in the [room]
+  - Raise the [vol_bri] of [electronicDevices] by [number] in the [room]
+  - Raise the [vol_bri] of [electronicDevices] by [number]
+  - Raise the [electronicDevices]'s [vol_bri] by [number]
+  - Boost the [electronicDevices]'s [vol_bri] by [number] in the [room]
+  - Boost the [vol_bri] of [electronicDevices] by [number] in the [room]
+  - Boost the [vol_bri] of [electronicDevices] by [number]
+  - Boost the [electronicDevices]'s [vol_bri] by [number]
+  - Amplify the [electronicDevices]'s [vol_bri] by [number] in the [room]
+  - Amplify the [vol_bri] of [electronicDevices] by [number] in the [room]
+  - Amplify the [vol_bri] of [electronicDevices] by [number]
+  - Amplify the [electronicDevices]'s [vol_bri] by [number]
+  
+

@@ -1,0 +1,7 @@
+# commandsWithBluetooth
+---
+type: intent
+name: commandsWithBluetooth
+utterances:
+  - Connect to my [electronicDevices]
+  - Disconnect from my [electronicDevices]
