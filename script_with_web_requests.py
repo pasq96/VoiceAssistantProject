@@ -29,7 +29,7 @@ def getPermissionList(user):
     for p in permission_list:
         if p['username'] == user:
             permissions_user.append(p['intent_command'])
-    return permissions_user     
+    return permissions_user    
 
 import requests
 def send_request(url, command):
@@ -226,34 +226,41 @@ def main():
             logging.info(permission_list)
             
             # intent_name3 = load_and_parse("persistent_engine_commands", command_from_slot)[0]   # Return only the first value
-            intent_name3 = send_request(url_pec, command_from_slot)[0]
+            intent_name3, _ , list_slot3 = send_request(url_pec, command_from_slot)
             print("Intent name is "+ str(intent_name3))
 
-            # Modified: 0=not modified, 1=add new permission
+            device_from_slot = []
+            for i in range(len(list_slot3)):                
+                if list_slot3[i]["entity"] == "electronicDevices":
+                    device_from_slot.append(list_slot3[i]["value"]["value"])
+            
+            # Modified: 0 = not modified, 1 = remove permission, 
             modified = 0
-            """ for p in permission_list:
+            devices = []            # old and new added
+            for p in permission_list:
                 if p['username'] == user_from_slot:
                     if p['intent_command'] == intent_name3:
-                        permission_list.pop(p)
-                        modified = 1
-                        break """
-
-            for i in range(len(permission_list)):
-                if permission_list[i]["username"] == user_from_slot and permission_list[i]["intent_command"] == intent_name3:
-                    permission_list.pop(i)
-                    modified = 1
-                    break
-
-            logging.info("Modified value: "+str(modified))
+                        if intent_name3 in {"turnON_ED", "turnOFF_ED"}:
+                            devices = p['device_list']
+                            for i in range(len(device_from_slot)): 
+                                if devices.count(device_from_slot[i]):
+                                    devices.remove(device_from_slot[i])
+                                    if not devices: # device is empty after remove last device
+                                        permission_list.remove(p)
+                                    modified = 1
+                                    break
+                            break
+                        else:
+                            permission_list.remove(p)
+                            modified = 1
+                            break
+            print (devices)
+            logging.info("Modified value: "+str(modified))           
             if modified != 0:
                 # 3. Write the updated json file
                 with open('permissions.json', "w") as file:
                     json.dump(permission_list, file)
-                    #logging.info("Modified json file: "+permission_list)
-                    logging.info("Modified json file: "+str(permission_list))
-                    
-
-        # Valutare la possibilità che un utente possa aggiungere (negare) o togliere (consentire) azioni PER SE STESSO.
+                logging.info(permission_list)
 
         elif (intent_name == "getPermission"):
             user_from_slot = list_slot[0]["rawValue"]
