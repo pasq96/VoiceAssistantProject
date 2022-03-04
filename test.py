@@ -1,3 +1,4 @@
+from genericpath import exists
 import io
 import json
 import os
@@ -123,26 +124,18 @@ def test():
         # 1. Read file contents
         with open('permissions.json', "r") as file:
             permission_list = json.load(file)
-        logging.info(permission_list)
+        # logging.info(permission_list)
         permissions_user = []
         for p in permission_list:
-            if p['username'] == user:
-                permissions_user.append(p['intent_command'])
-        return permissions_user    
+                if p['username'] == user:
+                    json_obj = {}
+                    json_obj['intent_name'] = p['intent_command']
+                    if p.get('device_list') is not None:
+                        json_obj['device_list'] = p['device_list']
+                    permissions_user.append(json_obj)
+        return permissions_user  
 
-
-        json_obj = {}
-        json_obj['intent_name'] = p['intent_command']
-        if p['device_list'] is not None:
-            json_obj['device_list'] = p['device_list']
-        for i in range(len(list_slot2)):                
-            json_obj['device_list'].append({
-                'entity' : list_slot2[i]["entity"],
-                'value' : list_slot2[i]["rawValue"]
-                })
-        print (json_obj) 
-
-    getPermissionList("nicola")
+    getPermissionList("carmine")
 
 if __name__ == "__main__":
     # main()

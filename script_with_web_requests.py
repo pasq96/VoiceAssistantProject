@@ -1,6 +1,7 @@
 import io
 import json
 import os
+from queue import Empty
 os.chdir("Z:\Drive condivisi\Tesi\File progetto\TEST SCRIPTS")
 
 import logging
@@ -21,15 +22,19 @@ def getPermission(user, intent_name):
     return permission_status
 
 def getPermissionList(user):
-    # 1. Read file contents
-    with open('permissions.json', "r") as file:
-        permission_list = json.load(file)
-    logging.info(permission_list)
-    permissions_user = []
-    for p in permission_list:
-        if p['username'] == user:
-            permissions_user.append(p['intent_command'])
-    return permissions_user    
+        # 1. Read file contents
+        with open('permissions.json', "r") as file:
+            permission_list = json.load(file)
+        # logging.info(permission_list)
+        permissions_user = []
+        for p in permission_list:
+                if p['username'] == user:
+                    json_obj = {}
+                    json_obj['intent_name'] = p['intent_command']
+                    if p.get('device_list') is not None:
+                        json_obj['device_list'] = p['device_list']
+                    permissions_user.append(json_obj)
+        return permissions_user     
 
 import requests
 def send_request(url, command):
@@ -263,16 +268,18 @@ def main():
                 logging.info(permission_list)
 
         elif (intent_name == "getPermission"):
-            user_from_slot = list_slot[0]["rawValue"]
+            # if list_slot is not empty
+            user_from_slot = None
+            if list_slot:
+                user_from_slot = list_slot[0]["rawValue"]
             # 1. Read file contents
             with open('users.json', "r") as file:
                     user_list = json.load(file)
-
             modified = 0 
-            if (user_from_slot is not None):
+            if user_from_slot is not None:
                 for u in user_list:
                     if (u['username'] == user and u['type'] == "admin") or (user == user_from_slot and user == u['username']):
-                        print("List of permission denied (user: "+user_from_slot+"): "+str(getPermissionList(user_from_slot)))
+                        print("List of permission denied (user: "+user_from_slot+"): \n"+str(getPermissionList(user_from_slot)))
                         modified = 1
                 if (modified == 0):
                     exit("You do not have the authorization to request information on the permissions of the user "+user_from_slot)
