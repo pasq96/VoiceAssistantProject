@@ -73,8 +73,70 @@ def main():
     # Uscita con errore se si vogliono svolgere azioni da admin ma si è utenti semplici ('user').
 
     if choice == 1:
-        if (intent_name == "setPermissionYes"):
+        if (intent_name == "setPermissionNo"):
             user_from_slot = list_slot[0]["rawValue"]
+            command_from_slot = list_slot[1]["rawValue"]
+
+            # 1. Read file contents
+            with open('permissions.json', "r") as file:
+                permission_list = json.load(file)
+
+            logging.info(permission_list)
+            
+            intent_name3, _ , list_slot3 = send_request(url_pec, command_from_slot)
+            print("Intent name is "+ str(intent_name3))
+
+            device_from_slot = []
+            for i in range(len(list_slot3)):                
+                if list_slot3[i]["entity"] == "electronicDevices":
+
+                    # Extract the lemma value
+                    device_from_slot.append(list_slot3[i]["value"]["value"])
+            
+            # modified: 0 = not modified, 1 = add new permission, 2 = append new device to existing list
+            modified = 1
+            devices = []            # old and new added
+
+            for p in permission_list:
+                if p['username'] == user_from_slot:
+                    if p['intent_command'] == intent_name3:
+                        if intent_name3 in {"turnON_ED", "turnOFF_ED"}:
+                            devices = p['device_list']
+                            for i in range(len(device_from_slot)): 
+                                if p['device_list'].count(device_from_slot[i]):
+                                    modified = 0
+                                    break
+                                else: 
+                                    devices.append(device_from_slot[i])
+                                    modified = 2
+                            break
+                        else:
+                            modified = 0
+                            break
+            print (devices)
+            logging.info("Modified value: "+str(modified))
+            if modified == 1:
+                if intent_name3 in {"turnON_ED", "turnOFF_ED"}:
+                    # if devices variable is blank (empty list)
+                    if not devices:
+                        permission_list.append({"username": user_from_slot, "intent_command": intent_name3, "device_list": device_from_slot})
+                    else:
+                        permission_list.append({"username": user_from_slot, "intent_command": intent_name3, "device_list": devices})
+                else:
+                    permission_list.append({"username": user_from_slot, "intent_command": intent_name3})
+            if modified != 0:
+                # 3. Write the updated json file
+                with open('permissions.json', "w") as file:
+                    json.dump(permission_list, file)
+            
+            logging.info(permission_list)
+
+
+
+
+
+        if (intent_name == "setPermissionYesAll"):   #da aggiustare !!!!
+            
             command_from_slot = list_slot[1]["rawValue"]
             # 1. Read file contents
             with open('permissions.json', "r") as file:
@@ -95,7 +157,6 @@ def main():
             modified = 0
             devices = []            # old and new added
             for p in permission_list:
-                if p['username'] == user_from_slot:
                     if p['intent_command'] == intent_name3:
                         if intent_name3 in {"turnON_ED", "turnOFF_ED"}:
                             devices = p['device_list']
@@ -119,24 +180,7 @@ def main():
                     json.dump(permission_list, file)
                 logging.info(permission_list)
 
-def test():
-    def getPermissionList(user):
-        # 1. Read file contents
-        with open('permissions.json', "r") as file:
-            permission_list = json.load(file)
-        # logging.info(permission_list)
-        permissions_user = []
-        for p in permission_list:
-                if p['username'] == user:
-                    json_obj = {}
-                    json_obj['intent_name'] = p['intent_command']
-                    if p.get('device_list') is not None:
-                        json_obj['device_list'] = p['device_list']
-                    permissions_user.append(json_obj)
-        return permissions_user  
-
-    getPermissionList("carmine")
 
 if __name__ == "__main__":
-    # main()
-    test()
+    main()
+    
