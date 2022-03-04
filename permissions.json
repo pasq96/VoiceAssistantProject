@@ -1,1 +1,1 @@
-[{"username": "pasquale", "intent_command": "setLightColor"}, {"username": "carmine", "intent_command": "callHelp"}, {"username": "salvatore", "intent_command": "turnON_ED"}]
+[{"username": "pasquale", "intent_command": "setLightColor"}, {"username": "carmine", "intent_command": "callHelp"}, {"username": "carmine", "intent_command": "turnON_ED", "device_list": ["lights", "tv", "radio", "headset"]}, {"username": "carmine", "intent_command": "turnOFF_ED", "device_list": ["headset"]}, {"username": "nicola", "intent_command": "callHelp"}]

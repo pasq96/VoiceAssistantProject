@@ -771,3 +771,20 @@ values:
 - Wake me at 7 with
 - Wake me up at 8 with the song 
  
+# Category Entity
+---
+type: entity
+name: category
+automatically_extensible: false
+values: 
+- childrens                                                 #[figli, bambini]
+- [grandchildrens, great-grandchildrens]                    #[nipoti, pronipoti]
+- teenagers                                                 #adolescenti
+- boys                                                      #ragazzi
+- girls                                                     #ragazze
+- youngs                                                    #giovani
+- adults                                                    #adulti
+- [guests, visitors, sojourners]                            #[ospiti, visitatori]
+- tenants                                                   #inquilini, inquiline 
+ 
+ 

@@ -198,12 +198,20 @@
       "slot_filler_name": "slot_filler_2"
     },
     {
-      "intent": "setPermissionNo",
+      "intent": "setPermissionAll",
       "slot_filler_name": "slot_filler_3"
     },
     {
-      "intent": "setPermissionYes",
+      "intent": "setPermissionCategory",
       "slot_filler_name": "slot_filler_4"
+    },
+    {
+      "intent": "setPermissionNo",
+      "slot_filler_name": "slot_filler_5"
+    },
+    {
+      "intent": "setPermissionYes",
+      "slot_filler_name": "slot_filler_6"
     }
   ]
 }

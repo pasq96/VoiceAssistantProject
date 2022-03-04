@@ -117,6 +117,7 @@
       {
         "args": {
           "entities": [
+            "user",
             "command"
           ],
           "entity_filter": {
@@ -176,9 +177,10 @@
     "unit_name": "crf_slot_filler"
   },
   "crf_model_file": "model.crfsuite",
-  "intent": "setPermissionAll",
+  "intent": "setPermissionYes",
   "language_code": "en",
   "slot_name_mapping": {
-    "command": "command"
+    "command": "command",
+    "user": "user"
   }
 }
