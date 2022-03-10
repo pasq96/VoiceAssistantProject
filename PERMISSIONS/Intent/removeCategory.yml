@@ -1,0 +1,11 @@
+# removeCategoryIntent
+---
+type: intent
+name: removeCategory
+slots:
+  - name: user
+    entity: user
+  - name: category
+    entity: category
+utterances:
+- '[user] is not a [category]'                                         #Carmine is not a children

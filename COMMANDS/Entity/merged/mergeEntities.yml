@@ -49,7 +49,7 @@ values:
   - [tablet, iPad, pad]
   - [tv, television, smart tv]
   - [radio, stereo]
-  - [light, lamp, bulb]
+  - [light, lamp, bulb, lights]
   - [Air conditioner, conditioner]
   - [headset, earphones]
   - alarm clock             # sveglia 

@@ -340,7 +340,8 @@
         {
           "synonyms": [
             "lamp",
-            "bulb"
+            "bulb",
+            "lights"
           ],
           "value": "light"
         },
@@ -1806,7 +1807,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "iPod"
+              "text": "tablet"
             },
             {
               "text": "'s "
@@ -1850,7 +1851,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "tablet"
+              "text": "iPad"
             },
             {
               "text": " by "
@@ -1886,7 +1887,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "iPad"
+              "text": "pad"
             },
             {
               "text": " by "
@@ -1906,7 +1907,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "pad"
+              "text": "tv"
             },
             {
               "text": "'s "
@@ -1934,7 +1935,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "tv"
+              "text": "television"
             },
             {
               "text": "'s "
@@ -1978,7 +1979,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "television"
+              "text": "smart tv"
             },
             {
               "text": " by "
@@ -2014,7 +2015,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "smart tv"
+              "text": "radio"
             },
             {
               "text": " by "
@@ -2034,7 +2035,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "radio"
+              "text": "stereo"
             },
             {
               "text": "'s "
@@ -2062,7 +2063,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "stereo"
+              "text": "light"
             },
             {
               "text": "'s "
@@ -2106,7 +2107,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "light"
+              "text": "lamp"
             },
             {
               "text": " of "
@@ -2142,7 +2143,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "lamp"
+              "text": "bulb"
             },
             {
               "text": " of "
@@ -2162,7 +2163,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "bulb"
+              "text": "lights"
             },
             {
               "text": "'s "
@@ -2779,7 +2780,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "bulb"
+              "text": "Air conditioner"
             },
             {
               "text": "'s "
@@ -2823,7 +2824,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "Air conditioner"
+              "text": "conditioner"
             },
             {
               "text": " by "
@@ -2859,7 +2860,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "conditioner"
+              "text": "headset"
             },
             {
               "text": " by "
@@ -2879,7 +2880,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "headset"
+              "text": "earphones"
             },
             {
               "text": "'s "
@@ -2907,7 +2908,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "earphones"
+              "text": "alarm clock"
             },
             {
               "text": "'s "
@@ -2951,7 +2952,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "alarm clock"
+              "text": "computer"
             },
             {
               "text": " by "
@@ -2987,7 +2988,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "computer"
+              "text": "pc"
             },
             {
               "text": " by "
@@ -3007,7 +3008,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "pc"
+              "text": "personal computer"
             },
             {
               "text": "'s "
@@ -3035,7 +3036,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "personal computer"
+              "text": "laptop"
             },
             {
               "text": "'s "
@@ -3079,7 +3080,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "laptop"
+              "text": "notebook"
             },
             {
               "text": " by "
@@ -3115,7 +3116,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "notebook"
+              "text": "home computer"
             },
             {
               "text": " by "
@@ -3135,7 +3136,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "home computer"
+              "text": "phone"
             },
             {
               "text": "'s "
@@ -3163,7 +3164,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "phone"
+              "text": "smartphone"
             },
             {
               "text": "'s "
@@ -3207,7 +3208,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "smartphone"
+              "text": "telephone"
             },
             {
               "text": " by "
@@ -3243,7 +3244,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "telephone"
+              "text": "mp3 player"
             },
             {
               "text": " by "
@@ -3263,7 +3264,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "mp3 player"
+              "text": "iPod"
             },
             {
               "text": "'s "
@@ -4723,7 +4724,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "radio"
+              "text": "light"
             },
             {
               "text": "'s "
@@ -4767,7 +4768,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "stereo"
+              "text": "lamp"
             },
             {
               "text": " to "
@@ -4803,7 +4804,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "light"
+              "text": "bulb"
             },
             {
               "text": " to "
@@ -4823,7 +4824,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "electronicDevices",
-              "text": "lamp"
+              "text": "lights"
             },
             {
               "text": "'s "
@@ -5413,7 +5414,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "device",
-              "text": "iPad"
+              "text": "pad"
             },
             {
               "text": " off"
@@ -5428,7 +5429,19 @@
             {
               "entity": "electronicDevices",
               "slot_name": "device",
-              "text": "pad"
+              "text": "tv"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Turn off the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "device",
+              "text": "television"
             },
             {
               "text": " in the "
@@ -5448,7 +5461,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "device",
-              "text": "tv"
+              "text": "smart tv"
             },
             {
               "text": " off in the "
@@ -5468,7 +5481,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "device",
-              "text": "television"
+              "text": "radio"
             },
             {
               "text": " off in the "
@@ -5485,7 +5498,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "device",
-              "text": "smart tv"
+              "text": "stereo"
             },
             {
               "text": " in "
@@ -5513,6 +5526,18 @@
               "entity": "electronicDevices",
               "slot_name": "device",
               "text": "smartphone"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Turn on the "
+            },
+            {
+              "entity": "electronicDevices",
+              "slot_name": "device",
+              "text": "telephone"
             },
             {
               "text": " in the "
@@ -5532,7 +5557,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "device",
-              "text": "telephone"
+              "text": "mp3 player"
             },
             {
               "text": " on in the "
@@ -5552,7 +5577,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "device",
-              "text": "mp3 player"
+              "text": "iPod"
             },
             {
               "text": " on in the "
@@ -5580,7 +5605,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "device",
-              "text": "iPod"
+              "text": "tablet"
             },
             {
               "text": " on"
@@ -5592,7 +5617,7 @@
             {
               "entity": "electronicDevices",
               "slot_name": "device",
-              "text": "tablet"
+              "text": "iPad"
             },
             {
               "text": " in "

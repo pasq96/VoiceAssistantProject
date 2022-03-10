@@ -101,9 +101,9 @@
       {
         "args": {
           "entities": [
+            "room",
             "streamAudioServices",
-            "musicGenre",
-            "room"
+            "musicGenre"
           ],
           "entity_filter": {
             "automatically_extensible": false
@@ -121,8 +121,8 @@
       {
         "args": {
           "entities": [
-            "electronicDevices",
             "song",
+            "electronicDevices",
             "artist"
           ],
           "entity_filter": {

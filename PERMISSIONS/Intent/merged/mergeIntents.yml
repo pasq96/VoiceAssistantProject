@@ -237,3 +237,51 @@ utterances:
 - all users are denied to [command]                                                               
 - all users are denied to ask to [command]  
  
+# addCategoryIntent
+---
+type: intent
+name: addCategory
+slots:
+  - name: user
+    entity: user
+  - name: category
+    entity: category
+utterances:
+- '[user] is a [category]'                                           #Pasquale is a children
+ 
+ 
+# removeCategoryIntent
+---
+type: intent
+name: removeCategory
+slots:
+  - name: user
+    entity: user
+  - name: category
+    entity: category
+utterances:
+- '[user] is not a [category]'                                         #Carmine is not a children
+ 
+ 
+# modCategoryIntent
+---
+type: intent
+name: modCategory
+slots:
+  - name: user
+    entity: user
+  - name: category
+    entity: category
+utterances:
+- Now [user] is a [category]                                                  #Ora Carmine è un bambino
+- '[user] is in the [category] category'                                      #Carmine is in the child category (Carmine è della categoria bambino)
+#- "[user] is in the [category]'s category'"                                  Carmine is in the children's category (Carmine è della categoria bambini)
+- '[user] belongs to the children category'                                   #Carmine belongs to the children category (Carmine appartiene alla categoria bambini)
+- '[user] is part of the children category'                                   #Carmine is part of the children category (Carmine fa parte della categoria bambini)
+- '[user] becomes a [category]'                                               #Carmine becomes a child (Carmine diventa un bambino)
+
+
+
+
+# Per modificare (cambiare) la categoria dell'utente senza specificare la vecchia categoria 
+ 

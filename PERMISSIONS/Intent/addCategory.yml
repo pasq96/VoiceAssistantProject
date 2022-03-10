@@ -1,0 +1,11 @@
+# addCategoryIntent
+---
+type: intent
+name: addCategory
+slots:
+  - name: user
+    entity: user
+  - name: category
+    entity: category
+utterances:
+- '[user] is a [category]'                                           #Pasquale is a children

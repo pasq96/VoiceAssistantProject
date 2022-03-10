@@ -8,6 +8,7 @@ slots:
   - name: room
     entity: room
 utterances:
+  - Turn on the [device]
   - Turn on the [device] in the [room]
   - Turn the [device] on in the [room]
   - Turn [device] on in the [room]
@@ -24,7 +25,8 @@ slots:
   - name: room
     entity: room
 utterances:
-  - Switch the [room]'s [device] off 
+  - Switch the [room]'s [device] off
+  - Turn off the [device]
   - Turn off the [device] in the [room]
   - Turn the [device] off in the [room]
   - Turn [device] off in the [room]

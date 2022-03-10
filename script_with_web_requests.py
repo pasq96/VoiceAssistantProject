@@ -42,7 +42,68 @@ def send_request(url, command):
       r = requests.get(url = url, params = parameters)
       data = r.json()
       # intent_name , probability, slots
-      return data[0], data[1], data[2]                                     
+      return data[0], data[1], data[2]    
+
+def get_username_from_users():
+    # 1. Read file contents
+    with open('users.json', "r") as file:
+            user_list = json.load(file)
+
+    only_username_list = []
+    for u in user_list:
+        only_username_list.append(u["username"])
+
+    usernames_list = list(set(only_username_list))
+    return usernames_list     
+
+def setPermNo_function(user_from_slot, intent_name3, list_slot3):
+
+    # 1. Read file contents
+    with open('permissions.json', "r") as file:
+        permission_list = json.load(file)    
+    
+    device_from_slot = []
+    for i in range(len(list_slot3)):                
+        if list_slot3[i]["entity"] == "electronicDevices":
+
+            # Extract the lemma value
+            device_from_slot.append(list_slot3[i]["value"]["value"])
+    
+    # modified: 0 = not modified, 1 = add new permission, 2 = append new device to existing list
+    modified = 1
+    devices = []            # old and new added
+
+    for p in permission_list:
+        if p['username'] == user_from_slot:
+            if p['intent_command'] == intent_name3:
+                if intent_name3 in {"turnON_ED", "turnOFF_ED", "decreaseElectronicDevice", "increaseElectronicDevice", "setElectronicDevice"}:
+                    devices = p['device_list']
+                    for i in range(len(device_from_slot)): 
+                        if p['device_list'].count(device_from_slot[i]):
+                            modified = 0
+                            break
+                        else: 
+                            devices.append(device_from_slot[i])
+                            modified = 2
+                    break
+                else:
+                    modified = 0
+                    break
+    if modified == 1:
+        if intent_name3 in {"turnON_ED", "turnOFF_ED", "decreaseElectronicDevice", "increaseElectronicDevice", "setElectronicDevice"}:
+            # if devices variable is blank (empty list)
+            if not devices:
+                permission_list.append({"username": user_from_slot, "intent_command": intent_name3, "device_list": device_from_slot})
+            else:
+                permission_list.append({"username": user_from_slot, "intent_command": intent_name3, "device_list": devices})
+        else:
+            permission_list.append({"username": user_from_slot, "intent_command": intent_name3})
+    
+    if modified != 0:
+        # 3. Write the updated json file
+        with open('permissions.json', "w") as file:
+            json.dump(permission_list, file)
+
 
 def main():
     nc_input = input("Please enter an input (name-command): ")
@@ -220,7 +281,6 @@ def main():
             
             logging.info(permission_list)
 
-
         elif (intent_name == "setPermissionYes"):
             user_from_slot = list_slot[0]["rawValue"]
             command_from_slot = list_slot[1]["rawValue"]
@@ -267,6 +327,19 @@ def main():
                     json.dump(permission_list, file)
                 logging.info(permission_list)
 
+        elif (intent_name == "setPermissionNoAll"):
+            command_from_slot = list_slot[0]["rawValue"]
+            u_list = get_username_from_users()
+
+            intent_name3, _ , list_slot3 = send_request(url_pec, command_from_slot)
+            for user in u_list:
+                setPermNo_function(user, intent_name3, list_slot3)
+            
+            with open('permissions.json', "r") as file:
+                permission_list = json.load(file)
+
+            logging.info(permission_list)
+        
         elif (intent_name == "getPermission"):
             # if list_slot is not empty
             user_from_slot = None

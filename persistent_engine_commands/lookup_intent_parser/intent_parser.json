@@ -7,9 +7,9 @@
     {
       "entity_scope": {
         "builtin": [
+          "snips/datetime",
           "snips/time",
-          "snips/date",
-          "snips/datetime"
+          "snips/date"
         ],
         "custom": []
       },
@@ -47,8 +47,8 @@
         ],
         "custom": [
           "electronicDevices",
-          "volume_bright",
-          "room"
+          "room",
+          "volume_bright"
         ]
       },
       "intent_group": [
@@ -121,8 +121,8 @@
     {
       "entity_scope": {
         "builtin": [
-          "snips/percentage",
-          "snips/number"
+          "snips/number",
+          "snips/percentage"
         ],
         "custom": [
           "operator"
@@ -136,12 +136,12 @@
       "entity_scope": {
         "builtin": [],
         "custom": [
-          "electronicDevices",
+          "room",
           "streamAudioServices",
-          "song",
-          "artist",
           "musicGenre",
-          "room"
+          "song",
+          "electronicDevices",
+          "artist"
         ]
       },
       "intent_group": [
@@ -164,8 +164,8 @@
       "entity_scope": {
         "builtin": [],
         "custom": [
-          "room",
-          "color"
+          "color",
+          "room"
         ]
       },
       "intent_group": [
@@ -226,8 +226,8 @@
     {
       "entity_scope": {
         "builtin": [
-          "snips/time",
-          "snips/musicTrack"
+          "snips/musicTrack",
+          "snips/time"
         ],
         "custom": []
       },
@@ -871,6 +871,12 @@
         2
       ]
     ],
+    "-81016290": [
+      24,
+      [
+        21
+      ]
+    ],
     "-72092081": [
       7,
       []
@@ -1217,6 +1223,12 @@
       [
         0,
         0
+      ]
+    ],
+    "1091862226": [
+      23,
+      [
+        21
       ]
     ],
     "1141423772": [

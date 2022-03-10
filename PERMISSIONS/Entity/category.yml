@@ -4,12 +4,12 @@ type: entity
 name: category
 automatically_extensible: false
 values: 
-- childrens                                                 #[figli, bambini]
-- [grandchildrens, great-grandchildrens]                    #[nipoti, pronipoti]
-- teenagers                                                 #adolescenti
-- boys                                                      #ragazzi
-- girls                                                     #ragazze
-- youngs                                                    #giovani
-- adults                                                    #adulti
-- [guests, visitors, sojourners]                            #[ospiti, visitatori]
-- tenants                                                   #inquilini, inquiline 
+- [child, childs, children, childrens]                                                          #[figlio, figli, bambini...]
+- [grandchildren, great-grandchildren, grandchildrens, great-grandchildrens]                    #[nipote, nipoti, pronipote, pronipoti]
+- [teenager, teenagers]                                                                         #[adolescente, dolescenti]
+- [boy, boys]                                                                                   #[ragazzo, ragazzi]
+- [girl, girls]                                                                                 #[ragazza, ragazze]
+- [young, youngs]                                                                               #[giovane, giovani]
+- [adult, adults]                                                                               #[adulto, adulti]
+- [guest, guests, visitor, visitors, sojourner, sojourners]                                     #[ospite, ospiti, visitatore...]
+- [tenant, tenants]                                                                             #[inquilino, inquilini...]
