@@ -328,17 +328,22 @@ def main():
                 logging.info(permission_list)
 
         elif (intent_name == "setPermissionNoAll"):
+            # OLD PERMISSIONS
+            with open('permissions.json', "r") as file:
+                permission_list = json.load(file)
+            logging.info("OLD: "+str(permission_list))
+
             command_from_slot = list_slot[0]["rawValue"]
             u_list = get_username_from_users()
 
             intent_name3, _ , list_slot3 = send_request(url_pec, command_from_slot)
             for user in u_list:
                 setPermNo_function(user, intent_name3, list_slot3)
-            
+
+            # NEW PERMISSIONS
             with open('permissions.json', "r") as file:
                 permission_list = json.load(file)
-
-            logging.info(permission_list)
+            logging.info("NEW:"+str(permission_list))
         
         elif (intent_name == "getPermission"):
             # if list_slot is not empty
