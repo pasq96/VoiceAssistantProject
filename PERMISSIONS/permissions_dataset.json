@@ -3610,398 +3610,6 @@
         }
       ]
     },
-    "setPermissionAll": {
-      "utterances": [
-        {
-          "data": [
-            {
-              "text": "all users is not allowed to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "Slow down the volume of"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "all users is not allowed to ask to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "Slow down the volume of phone by"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "all users does not have the approval to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "Slow down the volume of phone by 5 in the"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "all users does not have the approval to ask to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "Lower the temperature by"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "all users is not permitted to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "Lower the temperature by 5 degrees in the"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "all users is not permitted to ask to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "Turn down the temperature by"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "all users does not have the permission to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "Turn down the temperature by 5 degrees in the"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "all users does not have the permission to ask to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "Slow down the temperature by"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "all users is disallowed to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "Slow down the temperature by 5 degrees in the"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "all users is disallowed to ask to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "What is on calendar"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "all users is denied to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "What I will do"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "all users is denied to ask to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "What is the temperature?"
-            }
-          ]
-        }
-      ]
-    },
-    "setPermissionCategory": {
-      "utterances": [
-        {
-          "data": [
-            {
-              "text": "the "
-            },
-            {
-              "entity": "category",
-              "slot_name": "category",
-              "text": "childrens"
-            },
-            {
-              "text": " is not allowed to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "Decrease the volume of phone by 5 in the"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "the "
-            },
-            {
-              "entity": "category",
-              "slot_name": "category",
-              "text": "grandchildrens"
-            },
-            {
-              "text": " is not allowed to ask to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "Turn down the"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "the "
-            },
-            {
-              "entity": "category",
-              "slot_name": "category",
-              "text": "great-grandchildrens"
-            },
-            {
-              "text": " does not have the approval to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "Turn down the phone's bright by"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "the "
-            },
-            {
-              "entity": "category",
-              "slot_name": "category",
-              "text": "teenagers"
-            },
-            {
-              "text": " does not have the approval to ask to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "Turn down the phone's bright by 5 in the"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "the "
-            },
-            {
-              "entity": "category",
-              "slot_name": "category",
-              "text": "boys"
-            },
-            {
-              "text": " is not permitted to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "Turn down the phone's bright by"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "the "
-            },
-            {
-              "entity": "category",
-              "slot_name": "category",
-              "text": "girls"
-            },
-            {
-              "text": " is not permitted to ask to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "Turn down the volume of"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "the "
-            },
-            {
-              "entity": "category",
-              "slot_name": "category",
-              "text": "youngs"
-            },
-            {
-              "text": " does not have the permission to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "Turn down the volume of phone by"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "the "
-            },
-            {
-              "entity": "category",
-              "slot_name": "category",
-              "text": "adults"
-            },
-            {
-              "text": " does not have the permission to ask to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "Turn down the volume of phone by 5 in the"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "the "
-            },
-            {
-              "entity": "category",
-              "slot_name": "category",
-              "text": "guests"
-            },
-            {
-              "text": " is disallowed to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "Slow down the"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "the "
-            },
-            {
-              "entity": "category",
-              "slot_name": "category",
-              "text": "visitors"
-            },
-            {
-              "text": " is disallowed to ask to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "Slow down the phone's bright by"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "the "
-            },
-            {
-              "entity": "category",
-              "slot_name": "category",
-              "text": "sojourners"
-            },
-            {
-              "text": " is denied to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "Slow down the phone's bright by 5 in the"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "the "
-            },
-            {
-              "entity": "category",
-              "slot_name": "category",
-              "text": "tenants"
-            },
-            {
-              "text": " is denied to ask to "
-            },
-            {
-              "entity": "command",
-              "slot_name": "command",
-              "text": "Slow down the phone's bright by"
-            }
-          ]
-        }
-      ]
-    },
     "setPermissionNo": {
       "utterances": [
         {
@@ -4205,6 +3813,398 @@
               "entity": "command",
               "slot_name": "command",
               "text": "Decrease the volume of phone by"
+            }
+          ]
+        }
+      ]
+    },
+    "setPermissionNoAll": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "all users are not allowed to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "Slow down the volume of"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "all users are not allowed to ask to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "Slow down the volume of phone by"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "all users do not have the approval to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "Slow down the volume of phone by 5 in the"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "all users do not have the approval to ask to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "Lower the temperature by"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "all users are not permitted to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "Lower the temperature by 5 degrees in the"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "all users are not permitted to ask to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "Turn down the temperature by"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "all users do not have the permission to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "Turn down the temperature by 5 degrees in the"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "all users do not have the permission to ask to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "Slow down the temperature by"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "all users are disallowed to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "Slow down the temperature by 5 degrees in the"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "all users are disallowed to ask to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "What is on calendar"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "all users are denied to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "What I will do"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "all users are denied to ask to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "What is the temperature?"
+            }
+          ]
+        }
+      ]
+    },
+    "setPermissionNoByCategory": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "the "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "childrens"
+            },
+            {
+              "text": " are not allowed to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "Decrease the volume of phone by 5 in the"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "the "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "grandchildrens"
+            },
+            {
+              "text": " are not allowed to ask to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "Turn down the"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "the "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "great-grandchildrens"
+            },
+            {
+              "text": " does not have the approval to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "Turn down the phone's bright by"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "the "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "teenagers"
+            },
+            {
+              "text": " does not have the approval to ask to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "Turn down the phone's bright by 5 in the"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "the "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "boys"
+            },
+            {
+              "text": " are not permitted to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "Turn down the phone's bright by"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "the "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "girls"
+            },
+            {
+              "text": " are not permitted to ask to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "Turn down the volume of"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "the "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "youngs"
+            },
+            {
+              "text": " do not have the permission to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "Turn down the volume of phone by"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "the "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "adults"
+            },
+            {
+              "text": " do not have the permission to ask to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "Turn down the volume of phone by 5 in the"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "the "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "guests"
+            },
+            {
+              "text": " are disallowed to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "Slow down the"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "the "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "visitors"
+            },
+            {
+              "text": " are disallowed to ask to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "Slow down the phone's bright by"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "the "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "sojourners"
+            },
+            {
+              "text": " are denied to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "Slow down the phone's bright by 5 in the"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "the "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "tenants"
+            },
+            {
+              "text": " are denied to ask to "
+            },
+            {
+              "entity": "command",
+              "slot_name": "command",
+              "text": "Slow down the phone's bright by"
             }
           ]
         }

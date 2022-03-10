@@ -117,8 +117,8 @@
       {
         "args": {
           "entities": [
-            "user",
-            "command"
+            "command",
+            "user"
           ],
           "entity_filter": {
             "automatically_extensible": true

@@ -100,9 +100,7 @@
       },
       {
         "args": {
-          "entities": [
-            "category"
-          ],
+          "entities": [],
           "entity_filter": {
             "automatically_extensible": false
           },
@@ -178,10 +176,9 @@
     "unit_name": "crf_slot_filler"
   },
   "crf_model_file": "model.crfsuite",
-  "intent": "setPermissionCategory",
+  "intent": "setPermissionNoAll",
   "language_code": "en",
   "slot_name_mapping": {
-    "category": "category",
     "command": "command"
   }
 }

@@ -218,16 +218,16 @@
       "removeAdmin": {
         "user": "user"
       },
-      "setPermissionAll": {
-        "command": "command"
-      },
-      "setPermissionCategory": {
-        "category": "category",
-        "command": "command"
-      },
       "setPermissionNo": {
         "command": "command",
         "user": "user"
+      },
+      "setPermissionNoAll": {
+        "command": "command"
+      },
+      "setPermissionNoByCategory": {
+        "category": "category",
+        "command": "command"
       },
       "setPermissionYes": {
         "command": "command",

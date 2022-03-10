@@ -1,0 +1,24 @@
+# setPermissionNoAll Intent
+---
+type: intent
+name: setPermissionNoAll
+slots:
+  - name: command
+    entity: command
+utterances:
+- all users are not allowed to [command]
+- all users are not allowed to ask to [command]                                                                                                       
+
+- all users do not have the approval to [command]                                           
+- all users do not have the approval to ask to [command]                                      
+
+- all users are not permitted to [command]                                                      
+- all users are not permitted to ask to [command]                                               
+- all users do not have the permission to [command]                                            
+- all users do not have the permission to ask to [command]                                   
+
+- all users are disallowed to [command]                                                          
+- all users are disallowed to ask to [command]                                                  
+
+- all users are denied to [command]                                                               
+- all users are denied to ask to [command] 

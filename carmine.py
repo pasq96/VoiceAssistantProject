@@ -162,7 +162,7 @@ def main():
         # (che lavora in blacklist) se è un intent "setPermissionNo". Ragioniamo in ottica blacklist: se è presente una entry 
         # del tipo user-intent_command, allora l'utente "user" non potra' eseguire "intent_command" altrimenti invece non ci sono limitazioni
 
-        elif (intent_name == "setPermissionNo"):
+        elif (intent_name == "setPermissionNo" or intent_name == "setPermissionNoByCategory"):
             user_from_slot = list_slot[0]["rawValue"]
             command_from_slot = list_slot[1]["rawValue"]
 

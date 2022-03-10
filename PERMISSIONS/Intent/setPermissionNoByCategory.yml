@@ -1,0 +1,26 @@
+# setPermissionNoByCategory Intent
+---
+type: intent
+name: setPermissionNoByCategory
+slots:
+  - name: category
+    entity: category
+  - name: command
+    entity: command
+utterances:
+- the [category] are not allowed to [command]
+- the [category] are not allowed to ask to [command]                                                                                                       
+
+- the [category] does not have the approval to [command]                                           
+- the [category] does not have the approval to ask to [command]                                      
+
+- the [category] are not permitted to [command]                                                      
+- the [category] are not permitted to ask to [command]                                               
+- the [category] do not have the permission to [command]                                            
+- the [category] do not have the permission to ask to [command]                                   
+
+- the [category] are disallowed to [command]                                                         
+- the [category] are disallowed to ask to [command]                                                   
+
+- the [category] are denied to [command]                                                               
+- the [category] are denied to ask to [command] 
