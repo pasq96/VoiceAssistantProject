@@ -4,7 +4,7 @@ type: entity
 name: category
 automatically_extensible: false
 values: 
-- [child, childs, children, childrens]                                                          #[figlio, figli, bambini...]
+- [children, childs, child, childrens]                                                          #[figlio, figli, bambini...]
 - [grandchildren, great-grandchildren, grandchildrens, great-grandchildrens]                    #[nipote, nipoti, pronipote, pronipoti]
 - [teenager, teenagers]                                                                         #[adolescente, dolescenti]
 - [boy, boys]                                                                                   #[ragazzo, ragazzi]

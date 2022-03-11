@@ -190,28 +190,44 @@
       "slot_filler_name": "slot_filler_0"
     },
     {
-      "intent": "getPermission",
+      "intent": "addCategory",
       "slot_filler_name": "slot_filler_1"
     },
     {
-      "intent": "removeAdmin",
+      "intent": "getPermission",
       "slot_filler_name": "slot_filler_2"
     },
     {
-      "intent": "setPermissionNo",
+      "intent": "getPermissionByCategory",
       "slot_filler_name": "slot_filler_3"
     },
     {
-      "intent": "setPermissionNoAll",
+      "intent": "modCategory",
       "slot_filler_name": "slot_filler_4"
     },
     {
-      "intent": "setPermissionNoByCategory",
+      "intent": "removeAdmin",
       "slot_filler_name": "slot_filler_5"
     },
     {
-      "intent": "setPermissionYes",
+      "intent": "removeCategory",
       "slot_filler_name": "slot_filler_6"
+    },
+    {
+      "intent": "setPermissionNo",
+      "slot_filler_name": "slot_filler_7"
+    },
+    {
+      "intent": "setPermissionNoAll",
+      "slot_filler_name": "slot_filler_8"
+    },
+    {
+      "intent": "setPermissionNoByCategory",
+      "slot_filler_name": "slot_filler_9"
+    },
+    {
+      "intent": "setPermissionYes",
+      "slot_filler_name": "slot_filler_10"
     }
   ]
 }

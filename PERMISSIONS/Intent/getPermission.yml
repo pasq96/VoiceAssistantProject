@@ -34,7 +34,6 @@ utterances:
 - What are the actions that [user] cannot perform?                     #Quali sono le azioni che Carmine non può eseguire?
 - Tell me the list of actions that [user] cannot perform               #Dimmi l'elenco delle azioni che Carmine non può svolgere  
 - Tell me the list of actions that [user] cannot do                    #Dimmi l'elenco delle azioni che Carmine non può fare
-- Tell me the list of actions that [user] cannot perform               #Dimmi l'elenco delle azioni che Carmine non può eseguire
 - Tell me the actions that [user] cannot perform                       #Dimmi le azioni che Carmine non può eseguire | Dimmi le azioni che Carmine non può svolgere
 - Tell me the actions that [user] cannot do                            #Dimmi le azioni che Carmine non può fare
 - List the actions that [user] cannot perform                          #Elencami le azioni che Carmine non può eseguire | Elencami le azioni che Carmine non può svolgere

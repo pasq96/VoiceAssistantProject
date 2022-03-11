@@ -1,0 +1,33 @@
+# getPermissionByCategory Intent
+---
+type: intent
+name: getPermissionByCategory
+slots:
+  - name: user
+    entity: user
+  - name: category
+    entity: category
+utterances:
+- What are the actions that [category] cannot do?                          #Quali sono le azioni che i bambini non possono fare?
+- What are the actions that [category] cannot carry out?                   #Quali sono le azioni che i bambini non possono svolgere?
+- What are the actions that [category] cannot perform?                     #Quali sono le azioni che i bambini non possono eseguire?
+- Tell me the list of actions that [category] cannot perform               #Dimmi l'elenco delle azioni che i bambini non possono svolgere  
+- Tell me the list of actions that [category] cannot do                    #Dimmi l'elenco delle azioni che i bambini non possonoo fare
+- Tell me the list of actions that [category] cannot perform               #Dimmi l'elenco delle azioni che i bambini non può eseguire
+- Tell me the actions that [category] cannot perform                       #Dimmi le azioni che i bambini non può eseguire | Dimmi le azioni che i bambini non può svolgere
+- Tell me the actions that [category] cannot do                            #Dimmi le azioni che i bambini non può fare
+- List the actions that [category] cannot perform                          #Elencami le azioni che i bambini non può eseguire | Elencami le azioni che i bambini non può svolgere
+- List the actions that [category] cannot do                               #Elencami le azioni che i bambini non può fare                   
+- List the permissions [category] doesn't have                             #Elencami i permessi che i bambini non ha
+- Tell me the list of permits that [category] doesn't have                 #Dimmi l'elenco dei permessi che i bambini non ha
+- Tell me the list of permissions that [category] doesn't have             #Dimmi l'elenco dei permessi che non ha i bambini
+- Tell me the permissions that [category] doesn't have                     #Dimmi i permessi che i bambini non ha
+- Tell me the permissions that [category] does not have                    #Dimmi i permessi che non ha i bambini
+- Tell me the list of actions that [category] cannot perform               #Dimmi l'elenco delle azioni che i bambini non può eseguire | Dimmi l'elenco delle azioni che i bambini non può svolgere | Dimmi l'elenco delle azioni che non può eseguire i bambini
+- Tell me the list of actions that [category] cannot do                    #Dimmi l'elenco delle azioni che i bambini non può fare |Dimmi l'elenco delle azioni che non può fare i bambini                  
+- Tell me the list of actions that [category] cannot carry out             #Dimmi l'elenco delle azioni che non può svolgere i bambini
+- What can't [category] do?                                                #Cosa non può eseguire i bambini? | Cosa i bambini non può svolgere? | Cosa non può svolgere i bambini? | Cosa non può fare i bambini? | Cosa i bambini non può fare? | Cosa non può eseguire i bambini?
+- What can [category] not perform?                                         #Cosa i bambini non può eseguire? | Cosa i bambini non può eseguire?
+- List the permissions that are not due to [category]                      #Elencami i permessi che non spettano a i bambini  
+- List the permissions that [category] is not entitled to                  #Elencami i permessi che a i bambini non spettano
+- List the permissions to which [category] is not entitled                 #Elencami i permessi a cui i bambini non ha diritto | Elencami i permessi a cui non ha diritto i bambini

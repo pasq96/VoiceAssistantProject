@@ -8,4 +8,7 @@ slots:
   - name: category
     entity: category
 utterances:
-- '[user] is a [category]'                                           #Pasquale is a children
+- '[user] is a [category]'                                             #Carmine is a children
+- Add [user] to the [category] category                                #Add Carmine to the children category
+- Add [user] to the [category] group                                   #Add Carmine to the children group
+

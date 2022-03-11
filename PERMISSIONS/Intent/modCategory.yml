@@ -8,14 +8,12 @@ slots:
   - name: category
     entity: category
 utterances:
-- Now [user] is a [category]                                                  #Ora Carmine è un bambino
-- '[user] is in the [category] category'                                      #Carmine is in the child category (Carmine è della categoria bambino)
-#- "[user] is in the [category]'s category'"                                  Carmine is in the children's category (Carmine è della categoria bambini)
-- '[user] belongs to the children category'                                   #Carmine belongs to the children category (Carmine appartiene alla categoria bambini)
-- '[user] is part of the children category'                                   #Carmine is part of the children category (Carmine fa parte della categoria bambini)
-- '[user] becomes a [category]'                                               #Carmine becomes a child (Carmine diventa un bambino)
-
-
-
+- Now [user] becomes a [category]                                             #Now Carmine becomes a child (Ora Carmine diventa un bambino)
+- Now [user] belongs to the [category] category                                 #Now Carmine belongs to the children category (Ora Carmine appartiene alla categoria bambini)
+- Now [user] is part of the [category] category                                 #Now Carmine is part of the children category (Ora Carmine fa parte della categoria bambini)
+- Now [user] is in the [category] category                                    #Now Carmine is in the child category (Ora Carmine è della categoria bambino)
+- Now [user] belongs to the [category] group                                 #Now Carmine belongs to the children group (Ora Carmine appartiene alla categoria bambini)
+- Now [user] is part of the [category] group                                 #Now Carmine is part of the children group (Ora Carmine fa parte della categoria bambini)
+- Now [user] is in the [category] group 
 
 # Per modificare (cambiare) la categoria dell'utente senza specificare la vecchia categoria

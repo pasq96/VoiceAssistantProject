@@ -212,10 +212,25 @@
       "addAdmin": {
         "user": "user"
       },
+      "addCategory": {
+        "category": "category",
+        "user": "user"
+      },
       "getPermission": {
         "user": "user"
       },
+      "getPermissionByCategory": {
+        "category": "category"
+      },
+      "modCategory": {
+        "category": "category",
+        "user": "user"
+      },
       "removeAdmin": {
+        "user": "user"
+      },
+      "removeCategory": {
+        "category": "category",
         "user": "user"
       },
       "setPermissionNo": {

@@ -1,2 +1,4 @@
 # ignore test files
 test*.py
+carmine.py
+pasquale.py

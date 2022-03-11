@@ -4,45 +4,66 @@
       "automatically_extensible": false,
       "data": [
         {
-          "synonyms": [],
-          "value": "childrens"
+          "synonyms": [
+            "childs",
+            "child",
+            "childrens"
+          ],
+          "value": "children"
         },
         {
           "synonyms": [
+            "great-grandchildren",
+            "grandchildrens",
             "great-grandchildrens"
           ],
-          "value": "grandchildrens"
-        },
-        {
-          "synonyms": [],
-          "value": "teenagers"
-        },
-        {
-          "synonyms": [],
-          "value": "boys"
-        },
-        {
-          "synonyms": [],
-          "value": "girls"
-        },
-        {
-          "synonyms": [],
-          "value": "youngs"
-        },
-        {
-          "synonyms": [],
-          "value": "adults"
+          "value": "grandchildren"
         },
         {
           "synonyms": [
-            "visitors",
-            "sojourners"
+            "teenagers"
           ],
-          "value": "guests"
+          "value": "teenager"
         },
         {
-          "synonyms": [],
-          "value": "tenants"
+          "synonyms": [
+            "boys"
+          ],
+          "value": "boy"
+        },
+        {
+          "synonyms": [
+            "girls"
+          ],
+          "value": "girl"
+        },
+        {
+          "synonyms": [
+            "youngs"
+          ],
+          "value": "young"
+        },
+        {
+          "synonyms": [
+            "adults"
+          ],
+          "value": "adult"
+        },
+        {
+          "synonyms": [
+            "guests",
+            "visitor",
+            "visitors",
+            "sojourner",
+            "sojourners"
+          ],
+          "value": "guest"
+        },
+        {
+          "synonyms": [
+            "tenants"
+          ],
+          "value": "tenant"
         }
       ],
       "matching_strictness": 1.0,
@@ -2976,6 +2997,73 @@
         }
       ]
     },
+    "addCategory": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "entity": "user",
+              "slot_name": "user",
+              "text": "Eleonora"
+            },
+            {
+              "text": " is a "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "girl"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Add "
+            },
+            {
+              "entity": "user",
+              "slot_name": "user",
+              "text": "Elisa"
+            },
+            {
+              "text": " to the "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "girls"
+            },
+            {
+              "text": " category"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Add "
+            },
+            {
+              "entity": "user",
+              "slot_name": "user",
+              "text": "Emily"
+            },
+            {
+              "text": " to the "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "young"
+            },
+            {
+              "text": " group"
+            }
+          ]
+        }
+      ]
+    },
     "getPermission": {
       "utterances": [
         {
@@ -3196,7 +3284,7 @@
         {
           "data": [
             {
-              "text": "Tell me the list of actions that "
+              "text": "Tell me the actions that "
             },
             {
               "entity": "user",
@@ -3219,14 +3307,14 @@
               "text": "Anna Maria"
             },
             {
-              "text": " cannot perform"
+              "text": " cannot do"
             }
           ]
         },
         {
           "data": [
             {
-              "text": "Tell me the actions that "
+              "text": "List the actions that "
             },
             {
               "entity": "user",
@@ -3234,7 +3322,7 @@
               "text": "Domenico"
             },
             {
-              "text": " cannot do"
+              "text": " cannot perform"
             }
           ]
         },
@@ -3249,21 +3337,6 @@
               "text": "Antonietta"
             },
             {
-              "text": " cannot perform"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "List the actions that "
-            },
-            {
-              "entity": "user",
-              "slot_name": "user",
-              "text": "Bruno"
-            },
-            {
               "text": " cannot do"
             }
           ]
@@ -3276,7 +3349,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Carla"
+              "text": "Bruno"
             },
             {
               "text": " doesn't have"
@@ -3291,7 +3364,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Paolo"
+              "text": "Carla"
             },
             {
               "text": " doesn't have"
@@ -3302,6 +3375,21 @@
           "data": [
             {
               "text": "Tell me the list of permissions that "
+            },
+            {
+              "entity": "user",
+              "slot_name": "user",
+              "text": "Paolo"
+            },
+            {
+              "text": " doesn't have"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me the permissions that "
             },
             {
               "entity": "user",
@@ -3324,21 +3412,6 @@
               "text": "Michele"
             },
             {
-              "text": " doesn't have"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "Tell me the permissions that "
-            },
-            {
-              "entity": "user",
-              "slot_name": "user",
-              "text": "Concetta"
-            },
-            {
               "text": " does not have"
             }
           ]
@@ -3351,7 +3424,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Giorgio"
+              "text": "Concetta"
             },
             {
               "text": " cannot perform"
@@ -3366,7 +3439,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Rita"
+              "text": "Giorgio"
             },
             {
               "text": " cannot do"
@@ -3381,7 +3454,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Aldo"
+              "text": "Rita"
             },
             {
               "text": " cannot carry out"
@@ -3396,7 +3469,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Margherita"
+              "text": "Aldo"
             },
             {
               "text": " do?"
@@ -3411,7 +3484,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Sergio"
+              "text": "Margherita"
             },
             {
               "text": " not perform?"
@@ -3426,7 +3499,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Franca"
+              "text": "Sergio"
             }
           ]
         },
@@ -3438,7 +3511,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Luciano"
+              "text": "Franca"
             },
             {
               "text": " is not entitled to"
@@ -3453,10 +3526,518 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Paola"
+              "text": "Luciano"
             },
             {
               "text": " is not entitled"
+            }
+          ]
+        }
+      ]
+    },
+    "getPermissionByCategory": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "What are the actions that "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "tenants"
+            },
+            {
+              "text": " cannot do?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What are the actions that "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "children"
+            },
+            {
+              "text": " cannot carry out?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What are the actions that "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "childs"
+            },
+            {
+              "text": " cannot perform?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me the list of actions that "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "child"
+            },
+            {
+              "text": " cannot perform"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me the list of actions that "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "childrens"
+            },
+            {
+              "text": " cannot do"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me the list of actions that "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "grandchildren"
+            },
+            {
+              "text": " cannot perform"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me the actions that "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "great-grandchildren"
+            },
+            {
+              "text": " cannot perform"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me the actions that "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "grandchildrens"
+            },
+            {
+              "text": " cannot do"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "List the actions that "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "great-grandchildrens"
+            },
+            {
+              "text": " cannot perform"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "List the actions that "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "teenager"
+            },
+            {
+              "text": " cannot do"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "List the permissions "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "teenagers"
+            },
+            {
+              "text": " doesn't have"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me the list of permits that "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "boy"
+            },
+            {
+              "text": " doesn't have"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me the list of permissions that "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "boys"
+            },
+            {
+              "text": " doesn't have"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me the permissions that "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "girl"
+            },
+            {
+              "text": " doesn't have"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me the permissions that "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "girls"
+            },
+            {
+              "text": " does not have"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me the list of actions that "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "young"
+            },
+            {
+              "text": " cannot perform"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me the list of actions that "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "youngs"
+            },
+            {
+              "text": " cannot do"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me the list of actions that "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "adult"
+            },
+            {
+              "text": " cannot carry out"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What can't "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "adults"
+            },
+            {
+              "text": " do?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What can "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "guest"
+            },
+            {
+              "text": " not perform?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "List the permissions that are not due to "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "guests"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "List the permissions that "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "visitor"
+            },
+            {
+              "text": " is not entitled to"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "List the permissions to which "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "visitors"
+            },
+            {
+              "text": " is not entitled"
+            }
+          ]
+        }
+      ]
+    },
+    "modCategory": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Now "
+            },
+            {
+              "entity": "user",
+              "slot_name": "user",
+              "text": "Gaia"
+            },
+            {
+              "text": " becomes a "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "guest"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Now "
+            },
+            {
+              "entity": "user",
+              "slot_name": "user",
+              "text": "Giada"
+            },
+            {
+              "text": " belongs to the "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "guests"
+            },
+            {
+              "text": " category"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Now "
+            },
+            {
+              "entity": "user",
+              "slot_name": "user",
+              "text": "Ginerva"
+            },
+            {
+              "text": " is part of the "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "visitor"
+            },
+            {
+              "text": " category"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Now "
+            },
+            {
+              "entity": "user",
+              "slot_name": "user",
+              "text": "Gioia"
+            },
+            {
+              "text": " is in the "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "visitors"
+            },
+            {
+              "text": " category"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Now "
+            },
+            {
+              "entity": "user",
+              "slot_name": "user",
+              "text": "Giorgia"
+            },
+            {
+              "text": " belongs to the "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "sojourner"
+            },
+            {
+              "text": " group"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Now "
+            },
+            {
+              "entity": "user",
+              "slot_name": "user",
+              "text": "Giulia"
+            },
+            {
+              "text": " is part of the "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "sojourners"
+            },
+            {
+              "text": " group"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Now "
+            },
+            {
+              "entity": "user",
+              "slot_name": "user",
+              "text": "Greta"
+            },
+            {
+              "text": " is in the "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "tenant"
+            },
+            {
+              "text": " group"
             }
           ]
         }
@@ -3610,6 +4191,73 @@
         }
       ]
     },
+    "removeCategory": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "entity": "user",
+              "slot_name": "user",
+              "text": "Emma"
+            },
+            {
+              "text": " is not a "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "youngs"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Remove "
+            },
+            {
+              "entity": "user",
+              "slot_name": "user",
+              "text": "Eva"
+            },
+            {
+              "text": " from the "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "adult"
+            },
+            {
+              "text": " category"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Remove "
+            },
+            {
+              "entity": "user",
+              "slot_name": "user",
+              "text": "Francesca"
+            },
+            {
+              "text": " from the "
+            },
+            {
+              "entity": "category",
+              "slot_name": "category",
+              "text": "adults"
+            },
+            {
+              "text": " group"
+            }
+          ]
+        }
+      ]
+    },
     "setPermissionNo": {
       "utterances": [
         {
@@ -3617,7 +4265,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Azzurra"
+              "text": "Aurora"
             },
             {
               "text": " is not allowed to "
@@ -3634,7 +4282,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Beatrice"
+              "text": "Azzurra"
             },
             {
               "text": " is not allowed to ask to "
@@ -3651,7 +4299,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Benedetta"
+              "text": "Beatrice"
             },
             {
               "text": " does not have the approval to "
@@ -3668,7 +4316,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Bianca"
+              "text": "Benedetta"
             },
             {
               "text": " does not have the approval to ask to "
@@ -3685,7 +4333,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Camilla"
+              "text": "Bianca"
             },
             {
               "text": " is not permitted to "
@@ -3702,7 +4350,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Carlotta"
+              "text": "Camilla"
             },
             {
               "text": " is not permitted to ask to "
@@ -3719,7 +4367,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Caterina"
+              "text": "Carlotta"
             },
             {
               "text": " does not have the permission to "
@@ -3736,7 +4384,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Cecilia"
+              "text": "Caterina"
             },
             {
               "text": " does not have the permission to ask to "
@@ -3753,7 +4401,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Chiara"
+              "text": "Cecilia"
             },
             {
               "text": " is disallowed to "
@@ -3770,7 +4418,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Chloe"
+              "text": "Chiara"
             },
             {
               "text": " is disallowed to ask to "
@@ -3787,7 +4435,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Elena"
+              "text": "Chloe"
             },
             {
               "text": " is denied to "
@@ -3804,7 +4452,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Eleonora"
+              "text": "Elena"
             },
             {
               "text": " is denied to ask to "
@@ -3976,7 +4624,7 @@
             {
               "entity": "category",
               "slot_name": "category",
-              "text": "childrens"
+              "text": "children"
             },
             {
               "text": " are not allowed to "
@@ -3996,7 +4644,7 @@
             {
               "entity": "category",
               "slot_name": "category",
-              "text": "grandchildrens"
+              "text": "childs"
             },
             {
               "text": " are not allowed to ask to "
@@ -4016,7 +4664,7 @@
             {
               "entity": "category",
               "slot_name": "category",
-              "text": "great-grandchildrens"
+              "text": "child"
             },
             {
               "text": " does not have the approval to "
@@ -4036,7 +4684,7 @@
             {
               "entity": "category",
               "slot_name": "category",
-              "text": "teenagers"
+              "text": "childrens"
             },
             {
               "text": " does not have the approval to ask to "
@@ -4056,7 +4704,7 @@
             {
               "entity": "category",
               "slot_name": "category",
-              "text": "boys"
+              "text": "grandchildren"
             },
             {
               "text": " are not permitted to "
@@ -4076,7 +4724,7 @@
             {
               "entity": "category",
               "slot_name": "category",
-              "text": "girls"
+              "text": "great-grandchildren"
             },
             {
               "text": " are not permitted to ask to "
@@ -4096,7 +4744,7 @@
             {
               "entity": "category",
               "slot_name": "category",
-              "text": "youngs"
+              "text": "grandchildrens"
             },
             {
               "text": " do not have the permission to "
@@ -4116,7 +4764,7 @@
             {
               "entity": "category",
               "slot_name": "category",
-              "text": "adults"
+              "text": "great-grandchildrens"
             },
             {
               "text": " do not have the permission to ask to "
@@ -4136,7 +4784,7 @@
             {
               "entity": "category",
               "slot_name": "category",
-              "text": "guests"
+              "text": "teenager"
             },
             {
               "text": " are disallowed to "
@@ -4156,7 +4804,7 @@
             {
               "entity": "category",
               "slot_name": "category",
-              "text": "visitors"
+              "text": "teenagers"
             },
             {
               "text": " are disallowed to ask to "
@@ -4176,7 +4824,7 @@
             {
               "entity": "category",
               "slot_name": "category",
-              "text": "sojourners"
+              "text": "boy"
             },
             {
               "text": " are denied to "
@@ -4196,7 +4844,7 @@
             {
               "entity": "category",
               "slot_name": "category",
-              "text": "tenants"
+              "text": "boys"
             },
             {
               "text": " are denied to ask to "
@@ -4217,7 +4865,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Carmine"
+              "text": "Paola"
             },
             {
               "text": " can "
@@ -4234,7 +4882,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Pasquale"
+              "text": "Carmine"
             },
             {
               "text": " can ask to "
@@ -4251,7 +4899,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Vincenzo"
+              "text": "Pasquale"
             },
             {
               "text": " is authorized to "
@@ -4268,7 +4916,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Bernardo"
+              "text": "Vincenzo"
             },
             {
               "text": " is authorized to ask to "
@@ -4285,7 +4933,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Adele"
+              "text": "Bernardo"
             },
             {
               "text": " has the authorization to "
@@ -4302,7 +4950,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Alessia"
+              "text": "Adele"
             },
             {
               "text": " has the authorization to ask "
@@ -4319,7 +4967,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Alice"
+              "text": "Alessia"
             },
             {
               "text": " is consented to "
@@ -4336,7 +4984,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Anita"
+              "text": "Alice"
             },
             {
               "text": " is consented to ask to "
@@ -4353,7 +5001,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Anna"
+              "text": "Anita"
             },
             {
               "text": " has the consent to "
@@ -4370,7 +5018,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Arianna"
+              "text": "Anna"
             },
             {
               "text": " has the consent to ask to"
@@ -4387,7 +5035,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Asia"
+              "text": "Arianna"
             },
             {
               "text": " must be able to "
@@ -4404,7 +5052,7 @@
             {
               "entity": "user",
               "slot_name": "user",
-              "text": "Aurora"
+              "text": "Asia"
             },
             {
               "text": " must be able to ask to"

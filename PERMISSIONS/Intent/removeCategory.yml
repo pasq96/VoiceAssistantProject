@@ -9,3 +9,5 @@ slots:
     entity: category
 utterances:
 - '[user] is not a [category]'                                         #Carmine is not a children
+- Remove [user] from the [category] category                           #Remove Carmine to the children category
+- Remove [user] from the [category] group                              #Remove Carmine to the children group
