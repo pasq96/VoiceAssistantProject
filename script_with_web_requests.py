@@ -619,8 +619,7 @@ def main():
                     'value' : list_slot2[i]["rawValue"]
                     })
             print (json_obj)
-    
-    
+
     exit()
 
 if __name__ == "__main__":
