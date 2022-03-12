@@ -418,7 +418,7 @@ def main():
         
         elif (intent_name == "addCategory"):
             user_from_slot = list_slot[0]["rawValue"]
-            cat_from_slot = list_slot[1]["rawValue"]
+            cat_from_slot = list_slot[1]["value"]["value"]
             user_list = None
             # 1. Read file contents
             with open('users.json', "r") as file:
@@ -477,7 +477,7 @@ def main():
         
         elif (intent_name == "modCategory"):
             user_from_slot = list_slot[0]["rawValue"]
-            cat_from_slot = list_slot[1]["rawValue"]
+            cat_from_slot = list_slot[1]["value"]["value"]
             user_list = None
             # 1. Read file contents
             with open('users.json', "r") as file:

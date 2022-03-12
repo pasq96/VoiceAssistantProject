@@ -1,1 +1,1 @@
-[{"username": "pasquale", "type": "admin"}, {"username": "carmine", "type": "admin", "category": "teenager"}, {"username": "nicola", "type": "user"}]
+[{"username": "pasquale", "type": "admin", "category": "guests"}, {"username": "carmine", "type": "admin", "category": "teenager"}, {"username": "nicola", "type": "user", "category": "guest"}]
