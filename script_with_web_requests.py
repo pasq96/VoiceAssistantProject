@@ -590,7 +590,7 @@ def main():
             # if list_slot is not empty
             cat_from_slot = None
             if list_slot:
-                cat_from_slot = list_slot[0]["rawValue"]
+                cat_from_slot = list_slot[0]["value"]["value"]
             # 1. Read file contents
             with open('users.json', "r") as file:
                     user_list = json.load(file)
